@@ -1,0 +1,2189 @@
+local ArceusHub = {
+	ArceusHub = Instance.new("ScreenGui"),
+	Main = Instance.new("Frame"),
+	Frame = Instance.new("Frame"),
+	ImageLabel = Instance.new("ImageLabel"),
+	UICorner = Instance.new("UICorner"),
+	Frame_2 = Instance.new("Frame"),
+	TextLabel = Instance.new("TextLabel"),
+	UICorner_2 = Instance.new("UICorner"),
+	TextButton = Instance.new("TextButton"),
+	UICorner_3 = Instance.new("UICorner"),
+	Frame_3 = Instance.new("Frame"),
+	UICorner_4 = Instance.new("UICorner"),
+	TextLabel_2 = Instance.new("TextLabel"),
+	TextLabel_3 = Instance.new("TextLabel"),
+	TextLabel_4 = Instance.new("TextLabel"),
+	Frame_4 = Instance.new("Frame"),
+	UICorner_5 = Instance.new("UICorner"),
+	TextLabel_5 = Instance.new("TextLabel"),
+	menu = Instance.new("Frame"),
+	UICorner_6 = Instance.new("UICorner"),
+	TextButton_2 = Instance.new("TextButton"),
+	UICorner_7 = Instance.new("UICorner"),
+	TextLabel_6 = Instance.new("TextLabel"),
+	games = Instance.new("TextButton"),
+	UICorner_8 = Instance.new("UICorner"),
+	scripts = Instance.new("TextButton"),
+	UICorner_9 = Instance.new("UICorner"),
+	hubs = Instance.new("TextButton"),
+	UICorner_10 = Instance.new("UICorner"),
+	setting = Instance.new("TextButton"),
+	UICorner_11 = Instance.new("UICorner"),
+	setting_2 = Instance.new("TextButton"),
+	UICorner_12 = Instance.new("UICorner"),
+	Frame_5 = Instance.new("Frame"),
+	Frame_6 = Instance.new("Frame"),
+	UICorner_13 = Instance.new("UICorner"),
+	TextLabel_7 = Instance.new("TextLabel"),
+	TextLabel_8 = Instance.new("TextLabel"),
+	ImageLabel_2 = Instance.new("ImageLabel"),
+	UICorner_14 = Instance.new("UICorner"),
+	TextLabel_9 = Instance.new("TextLabel"),
+	TextLabel_10 = Instance.new("TextLabel"),
+	TextLabel_11 = Instance.new("TextLabel"),
+	TextLabel_12 = Instance.new("TextLabel"),
+	TextLabel_13 = Instance.new("TextLabel"),
+	TextLabel_14 = Instance.new("TextLabel"),
+	Open = Instance.new("ImageButton"),
+	UICorner_15 = Instance.new("UICorner"),
+	MM2 = Instance.new("Frame"),
+	Frame_7 = Instance.new("Frame"),
+	ImageLabel_3 = Instance.new("ImageLabel"),
+	UICorner_16 = Instance.new("UICorner"),
+	Frame_8 = Instance.new("Frame"),
+	TextLabel_15 = Instance.new("TextLabel"),
+	UICorner_17 = Instance.new("UICorner"),
+	TextButton_3 = Instance.new("TextButton"),
+	UICorner_18 = Instance.new("UICorner"),
+	TextLabel_16 = Instance.new("TextLabel"),
+	MM21 = Instance.new("Frame"),
+	TextLabel_17 = Instance.new("TextLabel"),
+	UICorner_19 = Instance.new("UICorner"),
+	ImageLabel_4 = Instance.new("ImageLabel"),
+	UICorner_20 = Instance.new("UICorner"),
+	TextButton_4 = Instance.new("TextButton"),
+	UICorner_21 = Instance.new("UICorner"),
+	TextButton_5 = Instance.new("TextButton"),
+	UICorner_22 = Instance.new("UICorner"),
+	Frame_9 = Instance.new("Frame"),
+	UICorner_23 = Instance.new("UICorner"),
+	TextButton_6 = Instance.new("TextButton"),
+	UICorner_24 = Instance.new("UICorner"),
+	TextLabel_18 = Instance.new("TextLabel"),
+	games_2 = Instance.new("TextButton"),
+	UICorner_25 = Instance.new("UICorner"),
+	scripts_2 = Instance.new("TextButton"),
+	UICorner_26 = Instance.new("UICorner"),
+	setting_3 = Instance.new("TextButton"),
+	UICorner_27 = Instance.new("UICorner"),
+	setting_4 = Instance.new("TextButton"),
+	UICorner_28 = Instance.new("UICorner"),
+	hubs_2 = Instance.new("TextButton"),
+	UICorner_29 = Instance.new("UICorner"),
+	Frame_10 = Instance.new("Frame"),
+	MM22 = Instance.new("Frame"),
+	TextLabel_19 = Instance.new("TextLabel"),
+	UICorner_30 = Instance.new("UICorner"),
+	ImageLabel_5 = Instance.new("ImageLabel"),
+	UICorner_31 = Instance.new("UICorner"),
+	TextButton_7 = Instance.new("TextButton"),
+	UICorner_32 = Instance.new("UICorner"),
+	TextButton_8 = Instance.new("TextButton"),
+	UICorner_33 = Instance.new("UICorner"),
+	MM23 = Instance.new("Frame"),
+	TextLabel_20 = Instance.new("TextLabel"),
+	UICorner_34 = Instance.new("UICorner"),
+	ImageLabel_6 = Instance.new("ImageLabel"),
+	UICorner_35 = Instance.new("UICorner"),
+	TextButton_9 = Instance.new("TextButton"),
+	UICorner_36 = Instance.new("UICorner"),
+	TextButton_10 = Instance.new("TextButton"),
+	UICorner_37 = Instance.new("UICorner"),
+	MM24 = Instance.new("Frame"),
+	TextLabel_21 = Instance.new("TextLabel"),
+	UICorner_38 = Instance.new("UICorner"),
+	ImageLabel_7 = Instance.new("ImageLabel"),
+	UICorner_39 = Instance.new("UICorner"),
+	TextButton_11 = Instance.new("TextButton"),
+	UICorner_40 = Instance.new("UICorner"),
+	TextButton_12 = Instance.new("TextButton"),
+	UICorner_41 = Instance.new("UICorner"),
+	MM25 = Instance.new("Frame"),
+	TextLabel_22 = Instance.new("TextLabel"),
+	UICorner_42 = Instance.new("UICorner"),
+	ImageLabel_8 = Instance.new("ImageLabel"),
+	UICorner_43 = Instance.new("UICorner"),
+	TextButton_13 = Instance.new("TextButton"),
+	UICorner_44 = Instance.new("UICorner"),
+	TextButton_14 = Instance.new("TextButton"),
+	UICorner_45 = Instance.new("UICorner"),
+	MM26 = Instance.new("Frame"),
+	TextLabel_23 = Instance.new("TextLabel"),
+	UICorner_46 = Instance.new("UICorner"),
+	ImageLabel_9 = Instance.new("ImageLabel"),
+	UICorner_47 = Instance.new("UICorner"),
+	TextButton_15 = Instance.new("TextButton"),
+	UICorner_48 = Instance.new("UICorner"),
+	TextButton_16 = Instance.new("TextButton"),
+	UICorner_49 = Instance.new("UICorner"),
+	Frame_11 = Instance.new("Frame"),
+	UICorner_50 = Instance.new("UICorner"),
+	TextLabel_24 = Instance.new("TextLabel"),
+	welcome = Instance.new("Frame"),
+	ImageLabel_10 = Instance.new("ImageLabel"),
+	UICorner_51 = Instance.new("UICorner"),
+	TextLabel_25 = Instance.new("TextLabel"),
+	games_3 = Instance.new("Frame"),
+	Frame_12 = Instance.new("Frame"),
+	ImageLabel_11 = Instance.new("ImageLabel"),
+	UICorner_52 = Instance.new("UICorner"),
+	Frame_13 = Instance.new("Frame"),
+	TextLabel_26 = Instance.new("TextLabel"),
+	UICorner_53 = Instance.new("UICorner"),
+	TextButton_17 = Instance.new("TextButton"),
+	UICorner_54 = Instance.new("UICorner"),
+	TextLabel_27 = Instance.new("TextLabel"),
+	Frame_14 = Instance.new("Frame"),
+	UICorner_55 = Instance.new("UICorner"),
+	TextButton_18 = Instance.new("TextButton"),
+	UICorner_56 = Instance.new("UICorner"),
+	TextLabel_28 = Instance.new("TextLabel"),
+	games_4 = Instance.new("TextButton"),
+	UICorner_57 = Instance.new("UICorner"),
+	scripts_3 = Instance.new("TextButton"),
+	UICorner_58 = Instance.new("UICorner"),
+	setting_5 = Instance.new("TextButton"),
+	UICorner_59 = Instance.new("UICorner"),
+	setting_6 = Instance.new("TextButton"),
+	UICorner_60 = Instance.new("UICorner"),
+	hubs_3 = Instance.new("TextButton"),
+	UICorner_61 = Instance.new("UICorner"),
+	Frame_15 = Instance.new("Frame"),
+	GameList = Instance.new("Frame"),
+	UICorner_62 = Instance.new("UICorner"),
+	TextLabel_29 = Instance.new("TextLabel"),
+	MM21_2 = Instance.new("Frame"),
+	TextLabel_30 = Instance.new("TextLabel"),
+	UICorner_63 = Instance.new("UICorner"),
+	ImageLabel_12 = Instance.new("ImageLabel"),
+	UICorner_64 = Instance.new("UICorner"),
+	TextButton_19 = Instance.new("TextButton"),
+	UICorner_65 = Instance.new("UICorner"),
+	Setting = Instance.new("Frame"),
+	Frame_16 = Instance.new("Frame"),
+	ImageLabel_13 = Instance.new("ImageLabel"),
+	UICorner_66 = Instance.new("UICorner"),
+	Frame_17 = Instance.new("Frame"),
+	TextLabel_31 = Instance.new("TextLabel"),
+	UICorner_67 = Instance.new("UICorner"),
+	TextButton_20 = Instance.new("TextButton"),
+	UICorner_68 = Instance.new("UICorner"),
+	TextLabel_32 = Instance.new("TextLabel"),
+	menu_2 = Instance.new("Frame"),
+	UICorner_69 = Instance.new("UICorner"),
+	TextButton_21 = Instance.new("TextButton"),
+	UICorner_70 = Instance.new("UICorner"),
+	TextLabel_33 = Instance.new("TextLabel"),
+	games_5 = Instance.new("TextButton"),
+	UICorner_71 = Instance.new("UICorner"),
+	scripts_4 = Instance.new("TextButton"),
+	UICorner_72 = Instance.new("UICorner"),
+	hubs_4 = Instance.new("TextButton"),
+	UICorner_73 = Instance.new("UICorner"),
+	setting_7 = Instance.new("TextButton"),
+	UICorner_74 = Instance.new("UICorner"),
+	setting_8 = Instance.new("TextButton"),
+	UICorner_75 = Instance.new("UICorner"),
+	Frame_18 = Instance.new("Frame"),
+	Frame_19 = Instance.new("Frame"),
+	UICorner_76 = Instance.new("UICorner"),
+	TextLabel_34 = Instance.new("TextLabel"),
+	white = Instance.new("TextButton"),
+	UICorner_77 = Instance.new("UICorner"),
+	red = Instance.new("TextButton"),
+	UICorner_78 = Instance.new("UICorner"),
+	blue = Instance.new("TextButton"),
+	UICorner_79 = Instance.new("UICorner"),
+	cyan = Instance.new("TextButton"),
+	UICorner_80 = Instance.new("UICorner"),
+	brown = Instance.new("TextButton"),
+	UICorner_81 = Instance.new("UICorner"),
+	blue_2 = Instance.new("TextButton"),
+	UICorner_82 = Instance.new("UICorner"),
+	brown_2 = Instance.new("TextButton"),
+	UICorner_83 = Instance.new("UICorner"),
+	white_2 = Instance.new("TextButton"),
+	UICorner_84 = Instance.new("UICorner"),
+	red_2 = Instance.new("TextButton"),
+	UICorner_85 = Instance.new("UICorner"),
+	cyan_2 = Instance.new("TextButton"),
+	UICorner_86 = Instance.new("UICorner"),
+}
+
+--Properties:
+
+ArceusHub.ArceusHub.Name = "Arceus Hub"
+ArceusHub.ArceusHub.Parent = game.Workspace
+ArceusHub.ArceusHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ArceusHub.ArceusHub.ResetOnSpawn = false
+
+ArceusHub.Main.Name = "Main"
+ArceusHub.Main.Parent = ArceusHub.ArceusHub
+ArceusHub.Main.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ArceusHub.Main.Position = UDim2.new(0.123096444, 0, 0.0972222239, 0)
+ArceusHub.Main.Size = UDim2.new(0, 595, 0, 377)
+ArceusHub.Main.Visible = false
+
+ArceusHub.Frame.Parent = ArceusHub.Main
+ArceusHub.Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ArceusHub.Frame.Position = UDim2.new(0.31616047, 0, 0.03183024, 0)
+ArceusHub.Frame.Size = UDim2.new(0, 217, 0, 53)
+
+ArceusHub.ImageLabel.Parent = ArceusHub.Frame
+ArceusHub.ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.ImageLabel.BorderSizePixel = 0
+ArceusHub.ImageLabel.Position = UDim2.new(0.0484344624, 0, 0.0611608773, 0)
+ArceusHub.ImageLabel.Size = UDim2.new(0, 93, 0, 46)
+ArceusHub.ImageLabel.Image = "rbxassetid://9843099744"
+
+ArceusHub.UICorner.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner.Parent = ArceusHub.Frame
+
+ArceusHub.Frame_2.Parent = ArceusHub.Frame
+ArceusHub.Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.Frame_2.Position = UDim2.new(0.473684222, 0, 0.132075474, 0)
+ArceusHub.Frame_2.Size = UDim2.new(0, 1, 0, 38)
+
+ArceusHub.TextLabel.Parent = ArceusHub.Frame
+ArceusHub.TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel.BackgroundTransparency = 1.000
+ArceusHub.TextLabel.Position = UDim2.new(0.290567011, 0, 0.0188680589, 0)
+ArceusHub.TextLabel.Size = UDim2.new(0, 200, 0, 50)
+ArceusHub.TextLabel.Font = Enum.Font.SourceSansBold
+ArceusHub.TextLabel.Text = "Arceus X Hub"
+ArceusHub.TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel.TextSize = 22.000
+
+ArceusHub.UICorner_2.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_2.Parent = ArceusHub.Main
+
+ArceusHub.TextButton.Parent = ArceusHub.Main
+ArceusHub.TextButton.BackgroundColor3 = Color3.fromRGB(9, 9, 9)
+ArceusHub.TextButton.Position = UDim2.new(0.926050425, 0, 0, 0)
+ArceusHub.TextButton.Size = UDim2.new(0, 44, 0, 36)
+ArceusHub.TextButton.Font = Enum.Font.SourceSansBold
+ArceusHub.TextButton.Text = "X"
+ArceusHub.TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextButton.TextSize = 30.000
+
+ArceusHub.UICorner_3.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_3.Parent = ArceusHub.TextButton
+
+ArceusHub.Frame_3.Parent = ArceusHub.Main
+ArceusHub.Frame_3.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+ArceusHub.Frame_3.BorderSizePixel = 0
+ArceusHub.Frame_3.Position = UDim2.new(0.606722713, 0, 0.350132614, 0)
+ArceusHub.Frame_3.Size = UDim2.new(0, 190, 0, 172)
+
+ArceusHub.UICorner_4.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_4.Parent = ArceusHub.Frame_3
+
+ArceusHub.TextLabel_2.Parent = ArceusHub.Frame_3
+ArceusHub.TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_2.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_2.Position = UDim2.new(0, 0, -0.0290697683, 0)
+ArceusHub.TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+ArceusHub.TextLabel_2.Font = Enum.Font.SourceSansBold
+ArceusHub.TextLabel_2.Text = "Note"
+ArceusHub.TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_2.TextSize = 28.000
+
+ArceusHub.TextLabel_3.Parent = ArceusHub.Frame_3
+ArceusHub.TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_3.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_3.Position = UDim2.new(0.042105265, 0, 0.261627913, 0)
+ArceusHub.TextLabel_3.Size = UDim2.new(0, 172, 0, 119)
+ArceusHub.TextLabel_3.Font = Enum.Font.SourceSansBold
+ArceusHub.TextLabel_3.Text = "This Script hub is made for Arceus X  Users. All Scrips is work for Arceus X and You can also view Features. You can Run 300+ Scrips in 1 Script Hub."
+ArceusHub.TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_3.TextSize = 18.000
+ArceusHub.TextLabel_3.TextWrapped = true
+ArceusHub.TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+ArceusHub.TextLabel_3.TextYAlignment = Enum.TextYAlignment.Top
+
+ArceusHub.TextLabel_4.Parent = ArceusHub.Main
+ArceusHub.TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_4.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_4.Position = UDim2.new(0.778239727, 0, 0.808046997, 0)
+ArceusHub.TextLabel_4.Size = UDim2.new(0, 172, 0, 119)
+ArceusHub.TextLabel_4.Font = Enum.Font.SourceSans
+ArceusHub.TextLabel_4.Text = "Script Hub V 0.1"
+ArceusHub.TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_4.TextSize = 13.000
+ArceusHub.TextLabel_4.TextWrapped = true
+
+ArceusHub.Frame_4.Parent = ArceusHub.Main
+ArceusHub.Frame_4.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+ArceusHub.Frame_4.BorderSizePixel = 0
+ArceusHub.Frame_4.Position = UDim2.new(0.60504204, 0, 0.856763899, 0)
+ArceusHub.Frame_4.Size = UDim2.new(0, 190, 0, 34)
+
+ArceusHub.UICorner_5.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_5.Parent = ArceusHub.Frame_4
+
+ArceusHub.TextLabel_5.Parent = ArceusHub.Frame_4
+ArceusHub.TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_5.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_5.Position = UDim2.new(0.0980303288, 0, -0.205540389, 0)
+ArceusHub.TextLabel_5.Size = UDim2.new(0, 151, 0, 50)
+ArceusHub.TextLabel_5.Font = Enum.Font.SourceSansBold
+ArceusHub.TextLabel_5.Text = "Made By Jorge"
+ArceusHub.TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_5.TextSize = 20.000
+
+ArceusHub.menu.Name = "menu"
+ArceusHub.menu.Parent = ArceusHub.Main
+ArceusHub.menu.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+ArceusHub.menu.Position = UDim2.new(0, 0, 0.206896558, 0)
+ArceusHub.menu.Size = UDim2.new(0, 62, 0, 299)
+ArceusHub.menu.ZIndex = 2
+
+ArceusHub.UICorner_6.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_6.Parent = ArceusHub.menu
+
+ArceusHub.TextButton_2.Parent = ArceusHub.menu
+ArceusHub.TextButton_2.BackgroundColor3 = Color3.fromRGB(6, 6, 6)
+ArceusHub.TextButton_2.Position = UDim2.new(0.0483870953, 0, 0.12709032, 0)
+ArceusHub.TextButton_2.Size = UDim2.new(0, 53, 0, 26)
+ArceusHub.TextButton_2.ZIndex = 2
+ArceusHub.TextButton_2.Font = Enum.Font.SourceSans
+ArceusHub.TextButton_2.Text = "Home"
+ArceusHub.TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextButton_2.TextSize = 14.000
+
+ArceusHub.UICorner_7.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_7.Parent = ArceusHub.TextButton_2
+
+ArceusHub.TextLabel_6.Parent = ArceusHub.menu
+ArceusHub.TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_6.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_6.Position = UDim2.new(-1.13544428, 0, -0.0444246791, 0)
+ArceusHub.TextLabel_6.Size = UDim2.new(0, 200, 0, 50)
+ArceusHub.TextLabel_6.Font = Enum.Font.SourceSansBold
+ArceusHub.TextLabel_6.Text = "Menu"
+ArceusHub.TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_6.TextSize = 22.000
+
+ArceusHub.games.Name = "games"
+ArceusHub.games.Parent = ArceusHub.menu
+ArceusHub.games.BackgroundColor3 = Color3.fromRGB(6, 6, 6)
+ArceusHub.games.Position = UDim2.new(0.0645161271, 0, 0.277592003, 0)
+ArceusHub.games.Size = UDim2.new(0, 53, 0, 26)
+ArceusHub.games.ZIndex = 2
+ArceusHub.games.Font = Enum.Font.SourceSans
+ArceusHub.games.Text = "Games"
+ArceusHub.games.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.games.TextSize = 14.000
+
+ArceusHub.UICorner_8.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_8.Parent = ArceusHub.games
+
+ArceusHub.scripts.Name = "scripts"
+ArceusHub.scripts.Parent = ArceusHub.menu
+ArceusHub.scripts.BackgroundColor3 = Color3.fromRGB(6, 6, 6)
+ArceusHub.scripts.Position = UDim2.new(0.0645161271, 0, 0.414715767, 0)
+ArceusHub.scripts.Size = UDim2.new(0, 53, 0, 26)
+ArceusHub.scripts.ZIndex = 2
+ArceusHub.scripts.Font = Enum.Font.SourceSans
+ArceusHub.scripts.Text = "Scripts"
+ArceusHub.scripts.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.scripts.TextSize = 14.000
+
+ArceusHub.UICorner_9.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_9.Parent = ArceusHub.scripts
+
+ArceusHub.hubs.Name = "hubs"
+ArceusHub.hubs.Parent = ArceusHub.menu
+ArceusHub.hubs.BackgroundColor3 = Color3.fromRGB(6, 6, 6)
+ArceusHub.hubs.Position = UDim2.new(0.0483870953, 0, 0.531772614, 0)
+ArceusHub.hubs.Size = UDim2.new(0, 53, 0, 26)
+ArceusHub.hubs.ZIndex = 2
+ArceusHub.hubs.Font = Enum.Font.SourceSans
+ArceusHub.hubs.Text = "Hubs"
+ArceusHub.hubs.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.hubs.TextSize = 14.000
+
+ArceusHub.UICorner_10.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_10.Parent = ArceusHub.hubs
+
+ArceusHub.setting.Name = "setting"
+ArceusHub.setting.Parent = ArceusHub.menu
+ArceusHub.setting.BackgroundColor3 = Color3.fromRGB(6, 6, 6)
+ArceusHub.setting.Position = UDim2.new(0.0645161271, 0, 0.668896377, 0)
+ArceusHub.setting.Size = UDim2.new(0, 53, 0, 26)
+ArceusHub.setting.ZIndex = 2
+ArceusHub.setting.Font = Enum.Font.SourceSans
+ArceusHub.setting.Text = "Setting"
+ArceusHub.setting.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.setting.TextSize = 14.000
+
+ArceusHub.UICorner_11.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_11.Parent = ArceusHub.setting
+
+ArceusHub.setting_2.Name = "setting"
+ArceusHub.setting_2.Parent = ArceusHub.menu
+ArceusHub.setting_2.BackgroundColor3 = Color3.fromRGB(6, 6, 6)
+ArceusHub.setting_2.Position = UDim2.new(0.0483870953, 0, 0.795986652, 0)
+ArceusHub.setting_2.Size = UDim2.new(0, 53, 0, 26)
+ArceusHub.setting_2.ZIndex = 2
+ArceusHub.setting_2.Font = Enum.Font.SourceSans
+ArceusHub.setting_2.Text = "Creadit"
+ArceusHub.setting_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.setting_2.TextSize = 14.000
+
+ArceusHub.UICorner_12.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_12.Parent = ArceusHub.setting_2
+
+ArceusHub.Frame_5.Parent = ArceusHub.Main
+ArceusHub.Frame_5.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+ArceusHub.Frame_5.BorderSizePixel = 0
+ArceusHub.Frame_5.Position = UDim2.new(0, 0, 0.206896558, 0)
+ArceusHub.Frame_5.Size = UDim2.new(0, 43, 0, 299)
+
+ArceusHub.Frame_6.Parent = ArceusHub.Main
+ArceusHub.Frame_6.BackgroundColor3 = Color3.fromRGB(7, 7, 7)
+ArceusHub.Frame_6.Position = UDim2.new(0.164705887, 0, 0.376657814, 0)
+ArceusHub.Frame_6.Size = UDim2.new(0, 222, 0, 181)
+
+ArceusHub.UICorner_13.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_13.Parent = ArceusHub.Frame_6
+
+ArceusHub.TextLabel_7.Parent = ArceusHub.Frame_6
+ArceusHub.TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_7.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_7.Position = UDim2.new(0.0495495498, 0, -0.0828729272, 0)
+ArceusHub.TextLabel_7.Size = UDim2.new(0, 200, 0, 50)
+ArceusHub.TextLabel_7.Font = Enum.Font.SourceSansBold
+ArceusHub.TextLabel_7.Text = "Profile"
+ArceusHub.TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_7.TextSize = 22.000
+
+ArceusHub.TextLabel_8.Parent = ArceusHub.Frame_6
+ArceusHub.TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_8.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_8.Position = UDim2.new(0.403719634, 0, 0.237569064, 0)
+ArceusHub.TextLabel_8.Size = UDim2.new(0, 101, 0, 20)
+ArceusHub.TextLabel_8.Font = Enum.Font.SourceSans
+ArceusHub.TextLabel_8.Text = "Name"
+ArceusHub.TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_8.TextScaled = true
+ArceusHub.TextLabel_8.TextSize = 16.000
+ArceusHub.TextLabel_8.TextWrapped = true
+
+ArceusHub.ImageLabel_2.Parent = ArceusHub.Frame_6
+ArceusHub.ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.ImageLabel_2.BackgroundTransparency = 1.000
+ArceusHub.ImageLabel_2.Position = UDim2.new(0.0765765756, 0, 0.143646404, 0)
+ArceusHub.ImageLabel_2.Size = UDim2.new(0, 52, 0, 55)
+ArceusHub.ImageLabel_2.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+ArceusHub.UICorner_14.CornerRadius = UDim.new(0, 99999999)
+ArceusHub.UICorner_14.Parent = ArceusHub.ImageLabel_2
+
+ArceusHub.TextLabel_9.Parent = ArceusHub.Frame_6
+ArceusHub.TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_9.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_9.Position = UDim2.new(0.0478637964, 0, 0.475138128, 0)
+ArceusHub.TextLabel_9.Size = UDim2.new(0, 101, 0, 20)
+ArceusHub.TextLabel_9.Font = Enum.Font.SourceSans
+ArceusHub.TextLabel_9.Text = "Account Age-"
+ArceusHub.TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_9.TextScaled = true
+ArceusHub.TextLabel_9.TextSize = 16.000
+ArceusHub.TextLabel_9.TextWrapped = true
+
+ArceusHub.TextLabel_10.Parent = ArceusHub.Frame_6
+ArceusHub.TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_10.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_10.Position = UDim2.new(0.633449376, 0, 0.475138128, 0)
+ArceusHub.TextLabel_10.Size = UDim2.new(0, 50, 0, 20)
+ArceusHub.TextLabel_10.Font = Enum.Font.SourceSans
+ArceusHub.TextLabel_10.Text = "Name"
+ArceusHub.TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_10.TextScaled = true
+ArceusHub.TextLabel_10.TextSize = 16.000
+ArceusHub.TextLabel_10.TextWrapped = true
+
+ArceusHub.TextLabel_11.Parent = ArceusHub.Frame_6
+ArceusHub.TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_11.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_11.Position = UDim2.new(0.633449376, 0, 0.850828767, 0)
+ArceusHub.TextLabel_11.Size = UDim2.new(0, 50, 0, 20)
+ArceusHub.TextLabel_11.Font = Enum.Font.SourceSans
+ArceusHub.TextLabel_11.Text = "Name"
+ArceusHub.TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_11.TextScaled = true
+ArceusHub.TextLabel_11.TextSize = 16.000
+ArceusHub.TextLabel_11.TextWrapped = true
+
+ArceusHub.TextLabel_12.Parent = ArceusHub.Frame_6
+ArceusHub.TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_12.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_12.Position = UDim2.new(0.277593523, 0, 0.850828767, 0)
+ArceusHub.TextLabel_12.Size = UDim2.new(0, 50, 0, 20)
+ArceusHub.TextLabel_12.Font = Enum.Font.SourceSans
+ArceusHub.TextLabel_12.Text = "Team-"
+ArceusHub.TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_12.TextScaled = true
+ArceusHub.TextLabel_12.TextSize = 16.000
+ArceusHub.TextLabel_12.TextWrapped = true
+
+ArceusHub.TextLabel_13.Parent = ArceusHub.Frame_6
+ArceusHub.TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_13.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_13.Position = UDim2.new(0.633449376, 0, 0.668508291, 0)
+ArceusHub.TextLabel_13.Size = UDim2.new(0, 50, 0, 20)
+ArceusHub.TextLabel_13.Font = Enum.Font.SourceSans
+ArceusHub.TextLabel_13.Text = "Name"
+ArceusHub.TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_13.TextScaled = true
+ArceusHub.TextLabel_13.TextSize = 16.000
+ArceusHub.TextLabel_13.TextWrapped = true
+
+ArceusHub.TextLabel_14.Parent = ArceusHub.Frame_6
+ArceusHub.TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_14.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_14.Position = UDim2.new(0.277593523, 0, 0.668508291, 0)
+ArceusHub.TextLabel_14.Size = UDim2.new(0, 50, 0, 20)
+ArceusHub.TextLabel_14.Font = Enum.Font.SourceSans
+ArceusHub.TextLabel_14.Text = "User ID-"
+ArceusHub.TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_14.TextScaled = true
+ArceusHub.TextLabel_14.TextSize = 16.000
+ArceusHub.TextLabel_14.TextWrapped = true
+
+ArceusHub.Open.Name = "Open"
+ArceusHub.Open.Parent = ArceusHub.ArceusHub
+ArceusHub.Open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.Open.Position = UDim2.new(0.00761421025, 0, 0.621031642, 0)
+ArceusHub.Open.Size = UDim2.new(0, 89, 0, 60)
+ArceusHub.Open.Image = "rbxassetid://9843099744"
+
+ArceusHub.UICorner_15.CornerRadius = UDim.new(0, 2147483647)
+ArceusHub.UICorner_15.Parent = ArceusHub.Open
+
+ArceusHub.MM2.Name = "MM2"
+ArceusHub.MM2.Parent = ArceusHub.ArceusHub
+ArceusHub.MM2.Active = true
+ArceusHub.MM2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ArceusHub.MM2.Position = UDim2.new(0.123096444, 0, 0.0972222239, 0)
+ArceusHub.MM2.Size = UDim2.new(0, 595, 0, 377)
+ArceusHub.MM2.Visible = false
+
+ArceusHub.Frame_7.Parent = ArceusHub.MM2
+ArceusHub.Frame_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ArceusHub.Frame_7.Position = UDim2.new(0.31616047, 0, 0.03183024, 0)
+ArceusHub.Frame_7.Size = UDim2.new(0, 217, 0, 53)
+
+ArceusHub.ImageLabel_3.Parent = ArceusHub.Frame_7
+ArceusHub.ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.ImageLabel_3.BorderSizePixel = 0
+ArceusHub.ImageLabel_3.Position = UDim2.new(0.0484344624, 0, 0.0611608773, 0)
+ArceusHub.ImageLabel_3.Size = UDim2.new(0, 93, 0, 46)
+ArceusHub.ImageLabel_3.Image = "rbxassetid://9843099744"
+
+ArceusHub.UICorner_16.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_16.Parent = ArceusHub.Frame_7
+
+ArceusHub.Frame_8.Parent = ArceusHub.Frame_7
+ArceusHub.Frame_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.Frame_8.Position = UDim2.new(0.473684222, 0, 0.132075474, 0)
+ArceusHub.Frame_8.Size = UDim2.new(0, 1, 0, 38)
+
+ArceusHub.TextLabel_15.Parent = ArceusHub.Frame_7
+ArceusHub.TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_15.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_15.Position = UDim2.new(0.290567011, 0, 0.0188680589, 0)
+ArceusHub.TextLabel_15.Size = UDim2.new(0, 200, 0, 50)
+ArceusHub.TextLabel_15.Font = Enum.Font.SourceSansBold
+ArceusHub.TextLabel_15.Text = "Arceus X Hub"
+ArceusHub.TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_15.TextSize = 22.000
+
+ArceusHub.UICorner_17.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_17.Parent = ArceusHub.MM2
+
+ArceusHub.TextButton_3.Parent = ArceusHub.MM2
+ArceusHub.TextButton_3.BackgroundColor3 = Color3.fromRGB(9, 9, 9)
+ArceusHub.TextButton_3.Position = UDim2.new(0.926050425, 0, 0, 0)
+ArceusHub.TextButton_3.Size = UDim2.new(0, 44, 0, 36)
+ArceusHub.TextButton_3.Font = Enum.Font.SourceSansBold
+ArceusHub.TextButton_3.Text = "X"
+ArceusHub.TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextButton_3.TextSize = 30.000
+
+ArceusHub.UICorner_18.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_18.Parent = ArceusHub.TextButton_3
+
+ArceusHub.TextLabel_16.Parent = ArceusHub.MM2
+ArceusHub.TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_16.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_16.Position = UDim2.new(0.778239727, 0, 0.808046997, 0)
+ArceusHub.TextLabel_16.Size = UDim2.new(0, 172, 0, 119)
+ArceusHub.TextLabel_16.Font = Enum.Font.SourceSans
+ArceusHub.TextLabel_16.Text = "Script Hub V 0.1"
+ArceusHub.TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_16.TextSize = 13.000
+ArceusHub.TextLabel_16.TextWrapped = true
+
+ArceusHub.MM21.Name = "MM2 1"
+ArceusHub.MM21.Parent = ArceusHub.MM2
+ArceusHub.MM21.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+ArceusHub.MM21.Position = UDim2.new(0.120248601, 0, 0.334217519, 0)
+ArceusHub.MM21.Size = UDim2.new(0, 240, 0, 64)
+
+ArceusHub.TextLabel_17.Parent = ArceusHub.MM21
+ArceusHub.TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_17.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_17.Position = UDim2.new(0.207079351, 0, -0.173201263, 0)
+ArceusHub.TextLabel_17.Size = UDim2.new(0, 200, 0, 50)
+ArceusHub.TextLabel_17.Font = Enum.Font.SourceSansBold
+ArceusHub.TextLabel_17.Text = "Xenny-Ware"
+ArceusHub.TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_17.TextSize = 20.000
+
+ArceusHub.UICorner_19.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_19.Parent = ArceusHub.MM21
+
+ArceusHub.ImageLabel_4.Parent = ArceusHub.MM21
+ArceusHub.ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.ImageLabel_4.BorderSizePixel = 0
+ArceusHub.ImageLabel_4.Position = UDim2.new(0.0272727273, 0, 0.078125, 0)
+ArceusHub.ImageLabel_4.Size = UDim2.new(0, 62, 0, 53)
+ArceusHub.ImageLabel_4.Image = "rbxassetid://9843169236"
+
+ArceusHub.UICorner_20.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_20.Parent = ArceusHub.ImageLabel_4
+
+ArceusHub.TextButton_4.Parent = ArceusHub.MM21
+ArceusHub.TextButton_4.BackgroundColor3 = Color3.fromRGB(8, 8, 8)
+ArceusHub.TextButton_4.Position = UDim2.new(0.363636345, 0, 0.5, 0)
+ArceusHub.TextButton_4.Size = UDim2.new(0, 64, 0, 24)
+ArceusHub.TextButton_4.Font = Enum.Font.SourceSansBold
+ArceusHub.TextButton_4.Text = "Features"
+ArceusHub.TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextButton_4.TextSize = 18.000
+
+ArceusHub.UICorner_21.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_21.Parent = ArceusHub.TextButton_4
+
+ArceusHub.TextButton_5.Parent = ArceusHub.MM21
+ArceusHub.TextButton_5.BackgroundColor3 = Color3.fromRGB(0, 255, 38)
+ArceusHub.TextButton_5.Position = UDim2.new(0.655303001, 0, 0.5, 0)
+ArceusHub.TextButton_5.Size = UDim2.new(0, 64, 0, 24)
+ArceusHub.TextButton_5.Font = Enum.Font.SourceSansBold
+ArceusHub.TextButton_5.Text = "Run"
+ArceusHub.TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+ArceusHub.TextButton_5.TextSize = 18.000
+
+ArceusHub.UICorner_22.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_22.Parent = ArceusHub.TextButton_5
+
+ArceusHub.Frame_9.Parent = ArceusHub.MM2
+ArceusHub.Frame_9.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+ArceusHub.Frame_9.Position = UDim2.new(0, 0, 0.206896558, 0)
+ArceusHub.Frame_9.Size = UDim2.new(0, 62, 0, 299)
+ArceusHub.Frame_9.ZIndex = 2
+
+ArceusHub.UICorner_23.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_23.Parent = ArceusHub.Frame_9
+
+ArceusHub.TextButton_6.Parent = ArceusHub.Frame_9
+ArceusHub.TextButton_6.BackgroundColor3 = Color3.fromRGB(6, 6, 6)
+ArceusHub.TextButton_6.Position = UDim2.new(0.0483870953, 0, 0.12709032, 0)
+ArceusHub.TextButton_6.Size = UDim2.new(0, 53, 0, 26)
+ArceusHub.TextButton_6.ZIndex = 2
+ArceusHub.TextButton_6.Font = Enum.Font.SourceSans
+ArceusHub.TextButton_6.Text = "Home"
+ArceusHub.TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextButton_6.TextSize = 14.000
+
+ArceusHub.UICorner_24.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_24.Parent = ArceusHub.TextButton_6
+
+ArceusHub.TextLabel_18.Parent = ArceusHub.Frame_9
+ArceusHub.TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_18.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_18.Position = UDim2.new(-1.13544428, 0, -0.0444246791, 0)
+ArceusHub.TextLabel_18.Size = UDim2.new(0, 200, 0, 50)
+ArceusHub.TextLabel_18.Font = Enum.Font.SourceSansBold
+ArceusHub.TextLabel_18.Text = "Menu"
+ArceusHub.TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_18.TextSize = 22.000
+
+ArceusHub.games_2.Name = "games"
+ArceusHub.games_2.Parent = ArceusHub.Frame_9
+ArceusHub.games_2.BackgroundColor3 = Color3.fromRGB(6, 6, 6)
+ArceusHub.games_2.Position = UDim2.new(0.0645161271, 0, 0.277592003, 0)
+ArceusHub.games_2.Size = UDim2.new(0, 53, 0, 26)
+ArceusHub.games_2.ZIndex = 2
+ArceusHub.games_2.Font = Enum.Font.SourceSans
+ArceusHub.games_2.Text = "Games"
+ArceusHub.games_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.games_2.TextSize = 14.000
+
+ArceusHub.UICorner_25.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_25.Parent = ArceusHub.games_2
+
+ArceusHub.scripts_2.Name = "scripts"
+ArceusHub.scripts_2.Parent = ArceusHub.Frame_9
+ArceusHub.scripts_2.BackgroundColor3 = Color3.fromRGB(6, 6, 6)
+ArceusHub.scripts_2.Position = UDim2.new(0.0645161271, 0, 0.414715767, 0)
+ArceusHub.scripts_2.Size = UDim2.new(0, 53, 0, 26)
+ArceusHub.scripts_2.ZIndex = 2
+ArceusHub.scripts_2.Font = Enum.Font.SourceSans
+ArceusHub.scripts_2.Text = "Scripts"
+ArceusHub.scripts_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.scripts_2.TextSize = 14.000
+
+ArceusHub.UICorner_26.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_26.Parent = ArceusHub.scripts_2
+
+ArceusHub.setting_3.Name = "setting"
+ArceusHub.setting_3.Parent = ArceusHub.Frame_9
+ArceusHub.setting_3.BackgroundColor3 = Color3.fromRGB(6, 6, 6)
+ArceusHub.setting_3.Position = UDim2.new(0.0483870953, 0, 0.795986652, 0)
+ArceusHub.setting_3.Size = UDim2.new(0, 53, 0, 26)
+ArceusHub.setting_3.ZIndex = 2
+ArceusHub.setting_3.Font = Enum.Font.SourceSans
+ArceusHub.setting_3.Text = "Creadit"
+ArceusHub.setting_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.setting_3.TextSize = 14.000
+
+ArceusHub.UICorner_27.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_27.Parent = ArceusHub.setting_3
+
+ArceusHub.setting_4.Name = "setting"
+ArceusHub.setting_4.Parent = ArceusHub.Frame_9
+ArceusHub.setting_4.BackgroundColor3 = Color3.fromRGB(6, 6, 6)
+ArceusHub.setting_4.Position = UDim2.new(0.0645161271, 0, 0.668896377, 0)
+ArceusHub.setting_4.Size = UDim2.new(0, 53, 0, 26)
+ArceusHub.setting_4.ZIndex = 2
+ArceusHub.setting_4.Font = Enum.Font.SourceSans
+ArceusHub.setting_4.Text = "Setting"
+ArceusHub.setting_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.setting_4.TextSize = 14.000
+
+ArceusHub.UICorner_28.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_28.Parent = ArceusHub.setting_4
+
+ArceusHub.hubs_2.Name = "hubs"
+ArceusHub.hubs_2.Parent = ArceusHub.Frame_9
+ArceusHub.hubs_2.BackgroundColor3 = Color3.fromRGB(6, 6, 6)
+ArceusHub.hubs_2.Position = UDim2.new(0.0483870953, 0, 0.531772614, 0)
+ArceusHub.hubs_2.Size = UDim2.new(0, 53, 0, 26)
+ArceusHub.hubs_2.ZIndex = 2
+ArceusHub.hubs_2.Font = Enum.Font.SourceSans
+ArceusHub.hubs_2.Text = "Hubs"
+ArceusHub.hubs_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.hubs_2.TextSize = 14.000
+
+ArceusHub.UICorner_29.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_29.Parent = ArceusHub.hubs_2
+
+ArceusHub.Frame_10.Parent = ArceusHub.MM2
+ArceusHub.Frame_10.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+ArceusHub.Frame_10.BorderSizePixel = 0
+ArceusHub.Frame_10.Position = UDim2.new(0, 0, 0.206896558, 0)
+ArceusHub.Frame_10.Size = UDim2.new(0, 43, 0, 299)
+
+ArceusHub.MM22.Name = "MM2 2"
+ArceusHub.MM22.Parent = ArceusHub.MM2
+ArceusHub.MM22.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+ArceusHub.MM22.Position = UDim2.new(0.120248601, 0, 0.538461566, 0)
+ArceusHub.MM22.Size = UDim2.new(0, 240, 0, 64)
+
+ArceusHub.TextLabel_19.Parent = ArceusHub.MM22
+ArceusHub.TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_19.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_19.Position = UDim2.new(0.207079351, 0, -0.173201263, 0)
+ArceusHub.TextLabel_19.Size = UDim2.new(0, 200, 0, 50)
+ArceusHub.TextLabel_19.Font = Enum.Font.SourceSansBold
+ArceusHub.TextLabel_19.Text = "Eclipse Hub"
+ArceusHub.TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_19.TextSize = 20.000
+
+ArceusHub.UICorner_30.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_30.Parent = ArceusHub.MM22
+
+ArceusHub.ImageLabel_5.Parent = ArceusHub.MM22
+ArceusHub.ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.ImageLabel_5.BorderSizePixel = 0
+ArceusHub.ImageLabel_5.Position = UDim2.new(0.0272727273, 0, 0.078125, 0)
+ArceusHub.ImageLabel_5.Size = UDim2.new(0, 62, 0, 53)
+ArceusHub.ImageLabel_5.Image = "rbxassetid://9843169236"
+
+ArceusHub.UICorner_31.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_31.Parent = ArceusHub.ImageLabel_5
+
+ArceusHub.TextButton_7.Parent = ArceusHub.MM22
+ArceusHub.TextButton_7.BackgroundColor3 = Color3.fromRGB(8, 8, 8)
+ArceusHub.TextButton_7.Position = UDim2.new(0.363636345, 0, 0.5, 0)
+ArceusHub.TextButton_7.Size = UDim2.new(0, 64, 0, 24)
+ArceusHub.TextButton_7.Font = Enum.Font.SourceSansBold
+ArceusHub.TextButton_7.Text = "Features"
+ArceusHub.TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextButton_7.TextSize = 18.000
+
+ArceusHub.UICorner_32.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_32.Parent = ArceusHub.TextButton_7
+
+ArceusHub.TextButton_8.Parent = ArceusHub.MM22
+ArceusHub.TextButton_8.BackgroundColor3 = Color3.fromRGB(0, 255, 38)
+ArceusHub.TextButton_8.Position = UDim2.new(0.655303001, 0, 0.5, 0)
+ArceusHub.TextButton_8.Size = UDim2.new(0, 64, 0, 24)
+ArceusHub.TextButton_8.Font = Enum.Font.SourceSansBold
+ArceusHub.TextButton_8.Text = "Run"
+ArceusHub.TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+ArceusHub.TextButton_8.TextSize = 18.000
+
+ArceusHub.UICorner_33.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_33.Parent = ArceusHub.TextButton_8
+
+ArceusHub.MM23.Name = "MM2 3"
+ArceusHub.MM23.Parent = ArceusHub.MM2
+ArceusHub.MM23.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+ArceusHub.MM23.Position = UDim2.new(0.120248601, 0, 0.755968153, 0)
+ArceusHub.MM23.Size = UDim2.new(0, 240, 0, 64)
+
+ArceusHub.TextLabel_20.Parent = ArceusHub.MM23
+ArceusHub.TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_20.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_20.Position = UDim2.new(0.207079351, 0, -0.173201263, 0)
+ArceusHub.TextLabel_20.Size = UDim2.new(0, 200, 0, 50)
+ArceusHub.TextLabel_20.Font = Enum.Font.SourceSansBold
+ArceusHub.TextLabel_20.Text = "Vynixius"
+ArceusHub.TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_20.TextSize = 20.000
+
+ArceusHub.UICorner_34.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_34.Parent = ArceusHub.MM23
+
+ArceusHub.ImageLabel_6.Parent = ArceusHub.MM23
+ArceusHub.ImageLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.ImageLabel_6.BorderSizePixel = 0
+ArceusHub.ImageLabel_6.Position = UDim2.new(0.0272727273, 0, 0.078125, 0)
+ArceusHub.ImageLabel_6.Size = UDim2.new(0, 62, 0, 53)
+ArceusHub.ImageLabel_6.Image = "rbxassetid://9843169236"
+
+ArceusHub.UICorner_35.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_35.Parent = ArceusHub.ImageLabel_6
+
+ArceusHub.TextButton_9.Parent = ArceusHub.MM23
+ArceusHub.TextButton_9.BackgroundColor3 = Color3.fromRGB(8, 8, 8)
+ArceusHub.TextButton_9.Position = UDim2.new(0.363636345, 0, 0.5, 0)
+ArceusHub.TextButton_9.Size = UDim2.new(0, 64, 0, 24)
+ArceusHub.TextButton_9.Font = Enum.Font.SourceSansBold
+ArceusHub.TextButton_9.Text = "Features"
+ArceusHub.TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextButton_9.TextSize = 18.000
+
+ArceusHub.UICorner_36.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_36.Parent = ArceusHub.TextButton_9
+
+ArceusHub.TextButton_10.Parent = ArceusHub.MM23
+ArceusHub.TextButton_10.BackgroundColor3 = Color3.fromRGB(0, 255, 38)
+ArceusHub.TextButton_10.Position = UDim2.new(0.655303001, 0, 0.5, 0)
+ArceusHub.TextButton_10.Size = UDim2.new(0, 64, 0, 24)
+ArceusHub.TextButton_10.Font = Enum.Font.SourceSansBold
+ArceusHub.TextButton_10.Text = "Run"
+ArceusHub.TextButton_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+ArceusHub.TextButton_10.TextSize = 18.000
+
+ArceusHub.UICorner_37.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_37.Parent = ArceusHub.TextButton_10
+
+ArceusHub.MM24.Name = "MM2 4"
+ArceusHub.MM24.Parent = ArceusHub.MM2
+ArceusHub.MM24.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+ArceusHub.MM24.Position = UDim2.new(0.558904052, 0, 0.336870015, 0)
+ArceusHub.MM24.Size = UDim2.new(0, 240, 0, 64)
+
+ArceusHub.TextLabel_21.Parent = ArceusHub.MM24
+ArceusHub.TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_21.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_21.Position = UDim2.new(0.207079351, 0, -0.173201263, 0)
+ArceusHub.TextLabel_21.Size = UDim2.new(0, 200, 0, 50)
+ArceusHub.TextLabel_21.Font = Enum.Font.SourceSansBold
+ArceusHub.TextLabel_21.Text = "Ez Hub"
+ArceusHub.TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_21.TextSize = 20.000
+
+ArceusHub.UICorner_38.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_38.Parent = ArceusHub.MM24
+
+ArceusHub.ImageLabel_7.Parent = ArceusHub.MM24
+ArceusHub.ImageLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.ImageLabel_7.BorderSizePixel = 0
+ArceusHub.ImageLabel_7.Position = UDim2.new(0.0272727273, 0, 0.078125, 0)
+ArceusHub.ImageLabel_7.Size = UDim2.new(0, 62, 0, 53)
+ArceusHub.ImageLabel_7.Image = "rbxassetid://9843169236"
+
+ArceusHub.UICorner_39.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_39.Parent = ArceusHub.ImageLabel_7
+
+ArceusHub.TextButton_11.Parent = ArceusHub.MM24
+ArceusHub.TextButton_11.BackgroundColor3 = Color3.fromRGB(8, 8, 8)
+ArceusHub.TextButton_11.Position = UDim2.new(0.363636345, 0, 0.5, 0)
+ArceusHub.TextButton_11.Size = UDim2.new(0, 64, 0, 24)
+ArceusHub.TextButton_11.Font = Enum.Font.SourceSansBold
+ArceusHub.TextButton_11.Text = "Features"
+ArceusHub.TextButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextButton_11.TextSize = 18.000
+
+ArceusHub.UICorner_40.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_40.Parent = ArceusHub.TextButton_11
+
+ArceusHub.TextButton_12.Parent = ArceusHub.MM24
+ArceusHub.TextButton_12.BackgroundColor3 = Color3.fromRGB(0, 255, 38)
+ArceusHub.TextButton_12.Position = UDim2.new(0.655303001, 0, 0.5, 0)
+ArceusHub.TextButton_12.Size = UDim2.new(0, 64, 0, 24)
+ArceusHub.TextButton_12.Font = Enum.Font.SourceSansBold
+ArceusHub.TextButton_12.Text = "Run"
+ArceusHub.TextButton_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+ArceusHub.TextButton_12.TextSize = 18.000
+
+ArceusHub.UICorner_41.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_41.Parent = ArceusHub.TextButton_12
+
+ArceusHub.MM25.Name = "MM2 5"
+ArceusHub.MM25.Parent = ArceusHub.MM2
+ArceusHub.MM25.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+ArceusHub.MM25.Position = UDim2.new(0.560584724, 0, 0.538461506, 0)
+ArceusHub.MM25.Size = UDim2.new(0, 240, 0, 64)
+
+ArceusHub.TextLabel_22.Parent = ArceusHub.MM25
+ArceusHub.TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_22.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_22.Position = UDim2.new(0.207079351, 0, -0.173201263, 0)
+ArceusHub.TextLabel_22.Size = UDim2.new(0, 200, 0, 50)
+ArceusHub.TextLabel_22.Font = Enum.Font.SourceSansBold
+ArceusHub.TextLabel_22.Text = "Murder Mystery 2 "
+ArceusHub.TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_22.TextSize = 20.000
+
+ArceusHub.UICorner_42.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_42.Parent = ArceusHub.MM25
+
+ArceusHub.ImageLabel_8.Parent = ArceusHub.MM25
+ArceusHub.ImageLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.ImageLabel_8.BorderSizePixel = 0
+ArceusHub.ImageLabel_8.Position = UDim2.new(0.0272727273, 0, 0.078125, 0)
+ArceusHub.ImageLabel_8.Size = UDim2.new(0, 62, 0, 53)
+ArceusHub.ImageLabel_8.Image = "rbxassetid://9843169236"
+
+ArceusHub.UICorner_43.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_43.Parent = ArceusHub.ImageLabel_8
+
+ArceusHub.TextButton_13.Parent = ArceusHub.MM25
+ArceusHub.TextButton_13.BackgroundColor3 = Color3.fromRGB(8, 8, 8)
+ArceusHub.TextButton_13.Position = UDim2.new(0.363636345, 0, 0.5, 0)
+ArceusHub.TextButton_13.Size = UDim2.new(0, 64, 0, 24)
+ArceusHub.TextButton_13.Font = Enum.Font.SourceSansBold
+ArceusHub.TextButton_13.Text = "Features"
+ArceusHub.TextButton_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextButton_13.TextSize = 18.000
+
+ArceusHub.UICorner_44.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_44.Parent = ArceusHub.TextButton_13
+
+ArceusHub.TextButton_14.Parent = ArceusHub.MM25
+ArceusHub.TextButton_14.BackgroundColor3 = Color3.fromRGB(0, 255, 38)
+ArceusHub.TextButton_14.Position = UDim2.new(0.655303001, 0, 0.5, 0)
+ArceusHub.TextButton_14.Size = UDim2.new(0, 64, 0, 24)
+ArceusHub.TextButton_14.Font = Enum.Font.SourceSansBold
+ArceusHub.TextButton_14.Text = "Run"
+ArceusHub.TextButton_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+ArceusHub.TextButton_14.TextSize = 18.000
+
+ArceusHub.UICorner_45.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_45.Parent = ArceusHub.TextButton_14
+
+ArceusHub.MM26.Name = "MM2 6"
+ArceusHub.MM26.Parent = ArceusHub.MM2
+ArceusHub.MM26.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+ArceusHub.MM26.Position = UDim2.new(0.560584724, 0, 0.758620679, 0)
+ArceusHub.MM26.Size = UDim2.new(0, 240, 0, 64)
+
+ArceusHub.TextLabel_23.Parent = ArceusHub.MM26
+ArceusHub.TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_23.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_23.Position = UDim2.new(0.207079351, 0, -0.173201263, 0)
+ArceusHub.TextLabel_23.Size = UDim2.new(0, 200, 0, 50)
+ArceusHub.TextLabel_23.Font = Enum.Font.SourceSansBold
+ArceusHub.TextLabel_23.Text = "Murder Mystery 2 "
+ArceusHub.TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_23.TextSize = 20.000
+
+ArceusHub.UICorner_46.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_46.Parent = ArceusHub.MM26
+
+ArceusHub.ImageLabel_9.Parent = ArceusHub.MM26
+ArceusHub.ImageLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.ImageLabel_9.BorderSizePixel = 0
+ArceusHub.ImageLabel_9.Position = UDim2.new(0.0272727273, 0, 0.078125, 0)
+ArceusHub.ImageLabel_9.Size = UDim2.new(0, 62, 0, 53)
+ArceusHub.ImageLabel_9.Image = "rbxassetid://9843169236"
+
+ArceusHub.UICorner_47.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_47.Parent = ArceusHub.ImageLabel_9
+
+ArceusHub.TextButton_15.Parent = ArceusHub.MM26
+ArceusHub.TextButton_15.BackgroundColor3 = Color3.fromRGB(8, 8, 8)
+ArceusHub.TextButton_15.Position = UDim2.new(0.363636345, 0, 0.5, 0)
+ArceusHub.TextButton_15.Size = UDim2.new(0, 64, 0, 24)
+ArceusHub.TextButton_15.Font = Enum.Font.SourceSansBold
+ArceusHub.TextButton_15.Text = "Features"
+ArceusHub.TextButton_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextButton_15.TextSize = 18.000
+
+ArceusHub.UICorner_48.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_48.Parent = ArceusHub.TextButton_15
+
+ArceusHub.TextButton_16.Parent = ArceusHub.MM26
+ArceusHub.TextButton_16.BackgroundColor3 = Color3.fromRGB(0, 255, 38)
+ArceusHub.TextButton_16.Position = UDim2.new(0.655303001, 0, 0.5, 0)
+ArceusHub.TextButton_16.Size = UDim2.new(0, 64, 0, 24)
+ArceusHub.TextButton_16.Font = Enum.Font.SourceSansBold
+ArceusHub.TextButton_16.Text = "Run"
+ArceusHub.TextButton_16.TextColor3 = Color3.fromRGB(0, 0, 0)
+ArceusHub.TextButton_16.TextSize = 18.000
+
+ArceusHub.UICorner_49.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_49.Parent = ArceusHub.TextButton_16
+
+ArceusHub.Frame_11.Parent = ArceusHub.MM2
+ArceusHub.Frame_11.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+ArceusHub.Frame_11.Position = UDim2.new(0.131092444, 0, 0.206896558, 0)
+ArceusHub.Frame_11.Size = UDim2.new(0, 167, 0, 30)
+
+ArceusHub.UICorner_50.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_50.Parent = ArceusHub.Frame_11
+
+ArceusHub.TextLabel_24.Parent = ArceusHub.Frame_11
+ArceusHub.TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_24.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_24.Position = UDim2.new(-0.098976329, 0, -0.356600404, 0)
+ArceusHub.TextLabel_24.Size = UDim2.new(0, 200, 0, 50)
+ArceusHub.TextLabel_24.Font = Enum.Font.SourceSansBold
+ArceusHub.TextLabel_24.Text = "Murder Mystery 2"
+ArceusHub.TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_24.TextSize = 24.000
+
+ArceusHub.welcome.Name = "welcome"
+ArceusHub.welcome.Parent = ArceusHub.ArceusHub
+ArceusHub.welcome.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ArceusHub.welcome.Position = UDim2.new(0.31472072, 0, 0.265873015, 0)
+ArceusHub.welcome.Size = UDim2.new(0, 289, 0, 238)
+ArceusHub.welcome.Visible = false
+
+ArceusHub.ImageLabel_10.Parent = ArceusHub.welcome
+ArceusHub.ImageLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.ImageLabel_10.BorderSizePixel = 0
+ArceusHub.ImageLabel_10.Position = UDim2.new(0.205515146, 0, 0.14019984, 0)
+ArceusHub.ImageLabel_10.Size = UDim2.new(0, 169, 0, 99)
+ArceusHub.ImageLabel_10.Image = "rbxassetid://9843099744"
+
+ArceusHub.UICorner_51.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_51.Parent = ArceusHub.welcome
+
+ArceusHub.TextLabel_25.Parent = ArceusHub.welcome
+ArceusHub.TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_25.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_25.Position = UDim2.new(0.150636673, 0, 0.635798335, 0)
+ArceusHub.TextLabel_25.Size = UDim2.new(0, 200, 0, 50)
+ArceusHub.TextLabel_25.Font = Enum.Font.SourceSansBold
+ArceusHub.TextLabel_25.Text = "Arceus X Hub"
+ArceusHub.TextLabel_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_25.TextSize = 28.000
+
+ArceusHub.games_3.Name = "games"
+ArceusHub.games_3.Parent = ArceusHub.ArceusHub
+ArceusHub.games_3.Active = true
+ArceusHub.games_3.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ArceusHub.games_3.Position = UDim2.new(0.123096444, 0, 0.0972222239, 0)
+ArceusHub.games_3.Size = UDim2.new(0, 595, 0, 377)
+ArceusHub.games_3.Visible = false
+
+ArceusHub.Frame_12.Parent = ArceusHub.games_3
+ArceusHub.Frame_12.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ArceusHub.Frame_12.Position = UDim2.new(0.31616047, 0, 0.03183024, 0)
+ArceusHub.Frame_12.Size = UDim2.new(0, 217, 0, 53)
+
+ArceusHub.ImageLabel_11.Parent = ArceusHub.Frame_12
+ArceusHub.ImageLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.ImageLabel_11.BorderSizePixel = 0
+ArceusHub.ImageLabel_11.Position = UDim2.new(0.0484344624, 0, 0.0611608773, 0)
+ArceusHub.ImageLabel_11.Size = UDim2.new(0, 93, 0, 46)
+ArceusHub.ImageLabel_11.Image = "rbxassetid://9843099744"
+
+ArceusHub.UICorner_52.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_52.Parent = ArceusHub.Frame_12
+
+ArceusHub.Frame_13.Parent = ArceusHub.Frame_12
+ArceusHub.Frame_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.Frame_13.Position = UDim2.new(0.473684222, 0, 0.132075474, 0)
+ArceusHub.Frame_13.Size = UDim2.new(0, 1, 0, 38)
+
+ArceusHub.TextLabel_26.Parent = ArceusHub.Frame_12
+ArceusHub.TextLabel_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_26.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_26.Position = UDim2.new(0.290567011, 0, 0.0188680589, 0)
+ArceusHub.TextLabel_26.Size = UDim2.new(0, 200, 0, 50)
+ArceusHub.TextLabel_26.Font = Enum.Font.SourceSansBold
+ArceusHub.TextLabel_26.Text = "Arceus X Hub"
+ArceusHub.TextLabel_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_26.TextSize = 22.000
+
+ArceusHub.UICorner_53.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_53.Parent = ArceusHub.games_3
+
+ArceusHub.TextButton_17.Parent = ArceusHub.games_3
+ArceusHub.TextButton_17.BackgroundColor3 = Color3.fromRGB(9, 9, 9)
+ArceusHub.TextButton_17.Position = UDim2.new(0.926050425, 0, 0, 0)
+ArceusHub.TextButton_17.Size = UDim2.new(0, 44, 0, 36)
+ArceusHub.TextButton_17.Font = Enum.Font.SourceSansBold
+ArceusHub.TextButton_17.Text = "X"
+ArceusHub.TextButton_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextButton_17.TextSize = 30.000
+
+ArceusHub.UICorner_54.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_54.Parent = ArceusHub.TextButton_17
+
+ArceusHub.TextLabel_27.Parent = ArceusHub.games_3
+ArceusHub.TextLabel_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_27.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_27.Position = UDim2.new(0.778239727, 0, 0.808046997, 0)
+ArceusHub.TextLabel_27.Size = UDim2.new(0, 172, 0, 119)
+ArceusHub.TextLabel_27.Font = Enum.Font.SourceSans
+ArceusHub.TextLabel_27.Text = "Script Hub V 0.1"
+ArceusHub.TextLabel_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_27.TextSize = 13.000
+ArceusHub.TextLabel_27.TextWrapped = true
+
+ArceusHub.Frame_14.Parent = ArceusHub.games_3
+ArceusHub.Frame_14.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+ArceusHub.Frame_14.Position = UDim2.new(0, 0, 0.206896558, 0)
+ArceusHub.Frame_14.Size = UDim2.new(0, 62, 0, 299)
+ArceusHub.Frame_14.ZIndex = 2
+
+ArceusHub.UICorner_55.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_55.Parent = ArceusHub.Frame_14
+
+ArceusHub.TextButton_18.Parent = ArceusHub.Frame_14
+ArceusHub.TextButton_18.BackgroundColor3 = Color3.fromRGB(6, 6, 6)
+ArceusHub.TextButton_18.Position = UDim2.new(0.0483870953, 0, 0.12709032, 0)
+ArceusHub.TextButton_18.Size = UDim2.new(0, 53, 0, 26)
+ArceusHub.TextButton_18.ZIndex = 2
+ArceusHub.TextButton_18.Font = Enum.Font.SourceSans
+ArceusHub.TextButton_18.Text = "Home"
+ArceusHub.TextButton_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextButton_18.TextSize = 14.000
+
+ArceusHub.UICorner_56.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_56.Parent = ArceusHub.TextButton_18
+
+ArceusHub.TextLabel_28.Parent = ArceusHub.Frame_14
+ArceusHub.TextLabel_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_28.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_28.Position = UDim2.new(-1.13544428, 0, -0.0444246791, 0)
+ArceusHub.TextLabel_28.Size = UDim2.new(0, 200, 0, 50)
+ArceusHub.TextLabel_28.Font = Enum.Font.SourceSansBold
+ArceusHub.TextLabel_28.Text = "Menu"
+ArceusHub.TextLabel_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_28.TextSize = 22.000
+
+ArceusHub.games_4.Name = "games"
+ArceusHub.games_4.Parent = ArceusHub.Frame_14
+ArceusHub.games_4.BackgroundColor3 = Color3.fromRGB(6, 6, 6)
+ArceusHub.games_4.Position = UDim2.new(0.0645161271, 0, 0.277592003, 0)
+ArceusHub.games_4.Size = UDim2.new(0, 53, 0, 26)
+ArceusHub.games_4.ZIndex = 2
+ArceusHub.games_4.Font = Enum.Font.SourceSans
+ArceusHub.games_4.Text = "Games"
+ArceusHub.games_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.games_4.TextSize = 14.000
+
+ArceusHub.UICorner_57.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_57.Parent = ArceusHub.games_4
+
+ArceusHub.scripts_3.Name = "scripts"
+ArceusHub.scripts_3.Parent = ArceusHub.Frame_14
+ArceusHub.scripts_3.BackgroundColor3 = Color3.fromRGB(6, 6, 6)
+ArceusHub.scripts_3.Position = UDim2.new(0.0645161271, 0, 0.414715767, 0)
+ArceusHub.scripts_3.Size = UDim2.new(0, 53, 0, 26)
+ArceusHub.scripts_3.ZIndex = 2
+ArceusHub.scripts_3.Font = Enum.Font.SourceSans
+ArceusHub.scripts_3.Text = "Scripts"
+ArceusHub.scripts_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.scripts_3.TextSize = 14.000
+
+ArceusHub.UICorner_58.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_58.Parent = ArceusHub.scripts_3
+
+ArceusHub.setting_5.Name = "setting"
+ArceusHub.setting_5.Parent = ArceusHub.Frame_14
+ArceusHub.setting_5.BackgroundColor3 = Color3.fromRGB(6, 6, 6)
+ArceusHub.setting_5.Position = UDim2.new(0.0483870953, 0, 0.795986652, 0)
+ArceusHub.setting_5.Size = UDim2.new(0, 53, 0, 26)
+ArceusHub.setting_5.ZIndex = 2
+ArceusHub.setting_5.Font = Enum.Font.SourceSans
+ArceusHub.setting_5.Text = "Creadit"
+ArceusHub.setting_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.setting_5.TextSize = 14.000
+
+ArceusHub.UICorner_59.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_59.Parent = ArceusHub.setting_5
+
+ArceusHub.setting_6.Name = "setting"
+ArceusHub.setting_6.Parent = ArceusHub.Frame_14
+ArceusHub.setting_6.BackgroundColor3 = Color3.fromRGB(6, 6, 6)
+ArceusHub.setting_6.Position = UDim2.new(0.0645161271, 0, 0.668896377, 0)
+ArceusHub.setting_6.Size = UDim2.new(0, 53, 0, 26)
+ArceusHub.setting_6.ZIndex = 2
+ArceusHub.setting_6.Font = Enum.Font.SourceSans
+ArceusHub.setting_6.Text = "Setting"
+ArceusHub.setting_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.setting_6.TextSize = 14.000
+
+ArceusHub.UICorner_60.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_60.Parent = ArceusHub.setting_6
+
+ArceusHub.hubs_3.Name = "hubs"
+ArceusHub.hubs_3.Parent = ArceusHub.Frame_14
+ArceusHub.hubs_3.BackgroundColor3 = Color3.fromRGB(6, 6, 6)
+ArceusHub.hubs_3.Position = UDim2.new(0.0483870953, 0, 0.531772614, 0)
+ArceusHub.hubs_3.Size = UDim2.new(0, 53, 0, 26)
+ArceusHub.hubs_3.ZIndex = 2
+ArceusHub.hubs_3.Font = Enum.Font.SourceSans
+ArceusHub.hubs_3.Text = "Hubs"
+ArceusHub.hubs_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.hubs_3.TextSize = 14.000
+
+ArceusHub.UICorner_61.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_61.Parent = ArceusHub.hubs_3
+
+ArceusHub.Frame_15.Parent = ArceusHub.games_3
+ArceusHub.Frame_15.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+ArceusHub.Frame_15.BorderSizePixel = 0
+ArceusHub.Frame_15.Position = UDim2.new(0, 0, 0.206896558, 0)
+ArceusHub.Frame_15.Size = UDim2.new(0, 43, 0, 299)
+
+ArceusHub.GameList.Name = "Game List"
+ArceusHub.GameList.Parent = ArceusHub.games_3
+ArceusHub.GameList.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+ArceusHub.GameList.Position = UDim2.new(0.159453169, 0, 0.270557016, 0)
+ArceusHub.GameList.Size = UDim2.new(0, 484, 0, 242)
+
+ArceusHub.UICorner_62.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_62.Parent = ArceusHub.GameList
+
+ArceusHub.TextLabel_29.Parent = ArceusHub.GameList
+ArceusHub.TextLabel_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_29.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_29.Position = UDim2.new(0.291444719, 0, -0.0418536291, 0)
+ArceusHub.TextLabel_29.Size = UDim2.new(0, 200, 0, 50)
+ArceusHub.TextLabel_29.Font = Enum.Font.SourceSansBold
+ArceusHub.TextLabel_29.Text = "Games"
+ArceusHub.TextLabel_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_29.TextSize = 22.000
+
+ArceusHub.MM21_2.Name = "MM2 1"
+ArceusHub.MM21_2.Parent = ArceusHub.GameList
+ArceusHub.MM21_2.BackgroundColor3 = Color3.fromRGB(6, 6, 6)
+ArceusHub.MM21_2.Position = UDim2.new(0.0242791921, 0, 0.127606034, 0)
+ArceusHub.MM21_2.Size = UDim2.new(0, 184, 0, 59)
+
+ArceusHub.TextLabel_30.Parent = ArceusHub.MM21_2
+ArceusHub.TextLabel_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_30.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_30.Position = UDim2.new(0.0820793137, 0, -0.0169510841, 0)
+ArceusHub.TextLabel_30.Size = UDim2.new(0, 200, 0, 33)
+ArceusHub.TextLabel_30.Font = Enum.Font.SourceSansBold
+ArceusHub.TextLabel_30.Text = "Murder Mystery 2"
+ArceusHub.TextLabel_30.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_30.TextSize = 16.000
+
+ArceusHub.UICorner_63.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_63.Parent = ArceusHub.MM21_2
+
+ArceusHub.ImageLabel_12.Parent = ArceusHub.MM21_2
+ArceusHub.ImageLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.ImageLabel_12.BorderSizePixel = 0
+ArceusHub.ImageLabel_12.Position = UDim2.new(0.0779973045, 0, 0.171466395, 0)
+ArceusHub.ImageLabel_12.Size = UDim2.new(0, 39, 0, 37)
+ArceusHub.ImageLabel_12.Image = "rbxassetid://9843169236"
+
+ArceusHub.UICorner_64.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_64.Parent = ArceusHub.ImageLabel_12
+
+ArceusHub.TextButton_19.Parent = ArceusHub.MM21_2
+ArceusHub.TextButton_19.BackgroundColor3 = Color3.fromRGB(8, 8, 8)
+ArceusHub.TextButton_19.Position = UDim2.new(0.412549317, 0, 0.539194942, 0)
+ArceusHub.TextButton_19.Size = UDim2.new(0, 64, 0, 18)
+ArceusHub.TextButton_19.Font = Enum.Font.SourceSansBold
+ArceusHub.TextButton_19.Text = "View"
+ArceusHub.TextButton_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextButton_19.TextSize = 18.000
+
+ArceusHub.UICorner_65.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_65.Parent = ArceusHub.TextButton_19
+
+ArceusHub.Setting.Name = "Setting"
+ArceusHub.Setting.Parent = ArceusHub.ArceusHub
+ArceusHub.Setting.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ArceusHub.Setting.Position = UDim2.new(0.123096444, 0, 0.0972222239, 0)
+ArceusHub.Setting.Size = UDim2.new(0, 595, 0, 377)
+ArceusHub.Setting.Visible = false
+
+ArceusHub.Frame_16.Parent = ArceusHub.Setting
+ArceusHub.Frame_16.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ArceusHub.Frame_16.Position = UDim2.new(0.31616047, 0, 0.03183024, 0)
+ArceusHub.Frame_16.Size = UDim2.new(0, 217, 0, 53)
+
+ArceusHub.ImageLabel_13.Parent = ArceusHub.Frame_16
+ArceusHub.ImageLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.ImageLabel_13.BorderSizePixel = 0
+ArceusHub.ImageLabel_13.Position = UDim2.new(0.0484344624, 0, 0.0611608773, 0)
+ArceusHub.ImageLabel_13.Size = UDim2.new(0, 93, 0, 46)
+ArceusHub.ImageLabel_13.Image = "rbxassetid://9843099744"
+
+ArceusHub.UICorner_66.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_66.Parent = ArceusHub.Frame_16
+
+ArceusHub.Frame_17.Parent = ArceusHub.Frame_16
+ArceusHub.Frame_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.Frame_17.Position = UDim2.new(0.473684222, 0, 0.132075474, 0)
+ArceusHub.Frame_17.Size = UDim2.new(0, 1, 0, 38)
+
+ArceusHub.TextLabel_31.Parent = ArceusHub.Frame_16
+ArceusHub.TextLabel_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_31.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_31.Position = UDim2.new(0.290567011, 0, 0.0188680589, 0)
+ArceusHub.TextLabel_31.Size = UDim2.new(0, 200, 0, 50)
+ArceusHub.TextLabel_31.Font = Enum.Font.SourceSansBold
+ArceusHub.TextLabel_31.Text = "Arceus X Hub"
+ArceusHub.TextLabel_31.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_31.TextSize = 22.000
+
+ArceusHub.UICorner_67.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_67.Parent = ArceusHub.Setting
+
+ArceusHub.TextButton_20.Parent = ArceusHub.Setting
+ArceusHub.TextButton_20.BackgroundColor3 = Color3.fromRGB(9, 9, 9)
+ArceusHub.TextButton_20.Position = UDim2.new(0.926050425, 0, 0, 0)
+ArceusHub.TextButton_20.Size = UDim2.new(0, 44, 0, 36)
+ArceusHub.TextButton_20.Font = Enum.Font.SourceSansBold
+ArceusHub.TextButton_20.Text = "X"
+ArceusHub.TextButton_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextButton_20.TextSize = 30.000
+
+ArceusHub.UICorner_68.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_68.Parent = ArceusHub.TextButton_20
+
+ArceusHub.TextLabel_32.Parent = ArceusHub.Setting
+ArceusHub.TextLabel_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_32.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_32.Position = UDim2.new(0.778239727, 0, 0.808046997, 0)
+ArceusHub.TextLabel_32.Size = UDim2.new(0, 172, 0, 119)
+ArceusHub.TextLabel_32.Font = Enum.Font.SourceSans
+ArceusHub.TextLabel_32.Text = "Script Hub V 0.1"
+ArceusHub.TextLabel_32.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_32.TextSize = 13.000
+ArceusHub.TextLabel_32.TextWrapped = true
+
+ArceusHub.menu_2.Name = "menu"
+ArceusHub.menu_2.Parent = ArceusHub.Setting
+ArceusHub.menu_2.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+ArceusHub.menu_2.Position = UDim2.new(0, 0, 0.206896558, 0)
+ArceusHub.menu_2.Size = UDim2.new(0, 62, 0, 299)
+ArceusHub.menu_2.ZIndex = 2
+
+ArceusHub.UICorner_69.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_69.Parent = ArceusHub.menu_2
+
+ArceusHub.TextButton_21.Parent = ArceusHub.menu_2
+ArceusHub.TextButton_21.BackgroundColor3 = Color3.fromRGB(6, 6, 6)
+ArceusHub.TextButton_21.Position = UDim2.new(0.0483870953, 0, 0.12709032, 0)
+ArceusHub.TextButton_21.Size = UDim2.new(0, 53, 0, 26)
+ArceusHub.TextButton_21.ZIndex = 2
+ArceusHub.TextButton_21.Font = Enum.Font.SourceSans
+ArceusHub.TextButton_21.Text = "Home"
+ArceusHub.TextButton_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextButton_21.TextSize = 14.000
+
+ArceusHub.UICorner_70.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_70.Parent = ArceusHub.TextButton_21
+
+ArceusHub.TextLabel_33.Parent = ArceusHub.menu_2
+ArceusHub.TextLabel_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_33.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_33.Position = UDim2.new(-1.13544428, 0, -0.0444246791, 0)
+ArceusHub.TextLabel_33.Size = UDim2.new(0, 200, 0, 50)
+ArceusHub.TextLabel_33.Font = Enum.Font.SourceSansBold
+ArceusHub.TextLabel_33.Text = "Menu"
+ArceusHub.TextLabel_33.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_33.TextSize = 22.000
+
+ArceusHub.games_5.Name = "games"
+ArceusHub.games_5.Parent = ArceusHub.menu_2
+ArceusHub.games_5.BackgroundColor3 = Color3.fromRGB(6, 6, 6)
+ArceusHub.games_5.Position = UDim2.new(0.0645161271, 0, 0.277592003, 0)
+ArceusHub.games_5.Size = UDim2.new(0, 53, 0, 26)
+ArceusHub.games_5.ZIndex = 2
+ArceusHub.games_5.Font = Enum.Font.SourceSans
+ArceusHub.games_5.Text = "Games"
+ArceusHub.games_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.games_5.TextSize = 14.000
+
+ArceusHub.UICorner_71.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_71.Parent = ArceusHub.games_5
+
+ArceusHub.scripts_4.Name = "scripts"
+ArceusHub.scripts_4.Parent = ArceusHub.menu_2
+ArceusHub.scripts_4.BackgroundColor3 = Color3.fromRGB(6, 6, 6)
+ArceusHub.scripts_4.Position = UDim2.new(0.0645161271, 0, 0.414715767, 0)
+ArceusHub.scripts_4.Size = UDim2.new(0, 53, 0, 26)
+ArceusHub.scripts_4.ZIndex = 2
+ArceusHub.scripts_4.Font = Enum.Font.SourceSans
+ArceusHub.scripts_4.Text = "Scripts"
+ArceusHub.scripts_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.scripts_4.TextSize = 14.000
+
+ArceusHub.UICorner_72.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_72.Parent = ArceusHub.scripts_4
+
+ArceusHub.hubs_4.Name = "hubs"
+ArceusHub.hubs_4.Parent = ArceusHub.menu_2
+ArceusHub.hubs_4.BackgroundColor3 = Color3.fromRGB(6, 6, 6)
+ArceusHub.hubs_4.Position = UDim2.new(0.0483870953, 0, 0.531772614, 0)
+ArceusHub.hubs_4.Size = UDim2.new(0, 53, 0, 26)
+ArceusHub.hubs_4.ZIndex = 2
+ArceusHub.hubs_4.Font = Enum.Font.SourceSans
+ArceusHub.hubs_4.Text = "Hubs"
+ArceusHub.hubs_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.hubs_4.TextSize = 14.000
+
+ArceusHub.UICorner_73.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_73.Parent = ArceusHub.hubs_4
+
+ArceusHub.setting_7.Name = "setting"
+ArceusHub.setting_7.Parent = ArceusHub.menu_2
+ArceusHub.setting_7.BackgroundColor3 = Color3.fromRGB(6, 6, 6)
+ArceusHub.setting_7.Position = UDim2.new(0.0645161271, 0, 0.668896377, 0)
+ArceusHub.setting_7.Size = UDim2.new(0, 53, 0, 26)
+ArceusHub.setting_7.ZIndex = 2
+ArceusHub.setting_7.Font = Enum.Font.SourceSans
+ArceusHub.setting_7.Text = "Setting"
+ArceusHub.setting_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.setting_7.TextSize = 14.000
+
+ArceusHub.UICorner_74.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_74.Parent = ArceusHub.setting_7
+
+ArceusHub.setting_8.Name = "setting"
+ArceusHub.setting_8.Parent = ArceusHub.menu_2
+ArceusHub.setting_8.BackgroundColor3 = Color3.fromRGB(6, 6, 6)
+ArceusHub.setting_8.Position = UDim2.new(0.0483870953, 0, 0.795986652, 0)
+ArceusHub.setting_8.Size = UDim2.new(0, 53, 0, 26)
+ArceusHub.setting_8.ZIndex = 2
+ArceusHub.setting_8.Font = Enum.Font.SourceSans
+ArceusHub.setting_8.Text = "Creadit"
+ArceusHub.setting_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.setting_8.TextSize = 14.000
+
+ArceusHub.UICorner_75.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_75.Parent = ArceusHub.setting_8
+
+ArceusHub.Frame_18.Parent = ArceusHub.Setting
+ArceusHub.Frame_18.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+ArceusHub.Frame_18.BorderSizePixel = 0
+ArceusHub.Frame_18.Position = UDim2.new(0, 0, 0.206896558, 0)
+ArceusHub.Frame_18.Size = UDim2.new(0, 43, 0, 299)
+
+ArceusHub.Frame_19.Parent = ArceusHub.Setting
+ArceusHub.Frame_19.BackgroundColor3 = Color3.fromRGB(7, 7, 7)
+ArceusHub.Frame_19.Position = UDim2.new(0.164705887, 0, 0.259946942, 0)
+ArceusHub.Frame_19.Size = UDim2.new(0, 307, 0, 165)
+
+ArceusHub.UICorner_76.CornerRadius = UDim.new(0, 12)
+ArceusHub.UICorner_76.Parent = ArceusHub.Frame_19
+
+ArceusHub.TextLabel_34.Parent = ArceusHub.Frame_19
+ArceusHub.TextLabel_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_34.BackgroundTransparency = 1.000
+ArceusHub.TextLabel_34.Position = UDim2.new(0.271915227, 0, 0.0502595007, 0)
+ArceusHub.TextLabel_34.Size = UDim2.new(0, 127, 0, 20)
+ArceusHub.TextLabel_34.Font = Enum.Font.SourceSansBold
+ArceusHub.TextLabel_34.Text = "BackGround Colors"
+ArceusHub.TextLabel_34.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.TextLabel_34.TextSize = 21.000
+
+ArceusHub.white.Name = "white"
+ArceusHub.white.Parent = ArceusHub.Frame_19
+ArceusHub.white.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ArceusHub.white.Position = UDim2.new(0.0684039071, 0, 0.266666681, 0)
+ArceusHub.white.Size = UDim2.new(0, 39, 0, 38)
+ArceusHub.white.Font = Enum.Font.SourceSans
+ArceusHub.white.Text = ""
+ArceusHub.white.TextColor3 = Color3.fromRGB(0, 0, 0)
+ArceusHub.white.TextSize = 14.000
+
+ArceusHub.UICorner_77.CornerRadius = UDim.new(0, 2147483647)
+ArceusHub.UICorner_77.Parent = ArceusHub.white
+
+ArceusHub.red.Name = "red"
+ArceusHub.red.Parent = ArceusHub.Frame_19
+ArceusHub.red.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ArceusHub.red.Position = UDim2.new(0.24429968, 0, 0.266666681, 0)
+ArceusHub.red.Size = UDim2.new(0, 39, 0, 38)
+ArceusHub.red.Font = Enum.Font.SourceSans
+ArceusHub.red.Text = ""
+ArceusHub.red.TextColor3 = Color3.fromRGB(0, 0, 0)
+ArceusHub.red.TextSize = 14.000
+
+ArceusHub.UICorner_78.CornerRadius = UDim.new(0, 2147483647)
+ArceusHub.UICorner_78.Parent = ArceusHub.red
+
+ArceusHub.blue.Name = "blue"
+ArceusHub.blue.Parent = ArceusHub.Frame_19
+ArceusHub.blue.BackgroundColor3 = Color3.fromRGB(0, 55, 255)
+ArceusHub.blue.Position = UDim2.new(0.413680762, 0, 0.266666681, 0)
+ArceusHub.blue.Size = UDim2.new(0, 39, 0, 38)
+ArceusHub.blue.Font = Enum.Font.SourceSans
+ArceusHub.blue.Text = ""
+ArceusHub.blue.TextColor3 = Color3.fromRGB(0, 0, 0)
+ArceusHub.blue.TextSize = 14.000
+
+ArceusHub.UICorner_79.CornerRadius = UDim.new(0, 2147483647)
+ArceusHub.UICorner_79.Parent = ArceusHub.blue
+
+ArceusHub.cyan.Name = "cyan"
+ArceusHub.cyan.Parent = ArceusHub.Frame_19
+ArceusHub.cyan.BackgroundColor3 = Color3.fromRGB(75, 255, 249)
+ArceusHub.cyan.Position = UDim2.new(0.586319208, 0, 0.266666681, 0)
+ArceusHub.cyan.Size = UDim2.new(0, 39, 0, 38)
+ArceusHub.cyan.Font = Enum.Font.SourceSans
+ArceusHub.cyan.Text = ""
+ArceusHub.cyan.TextColor3 = Color3.fromRGB(0, 0, 0)
+ArceusHub.cyan.TextSize = 14.000
+
+ArceusHub.UICorner_80.CornerRadius = UDim.new(0, 2147483647)
+ArceusHub.UICorner_80.Parent = ArceusHub.cyan
+
+ArceusHub.brown.Name = "brown"
+ArceusHub.brown.Parent = ArceusHub.Frame_19
+ArceusHub.brown.BackgroundColor3 = Color3.fromRGB(255, 180, 181)
+ArceusHub.brown.Position = UDim2.new(0.781758964, 0, 0.266666681, 0)
+ArceusHub.brown.Size = UDim2.new(0, 39, 0, 38)
+ArceusHub.brown.Font = Enum.Font.SourceSans
+ArceusHub.brown.Text = ""
+ArceusHub.brown.TextColor3 = Color3.fromRGB(0, 0, 0)
+ArceusHub.brown.TextSize = 14.000
+
+ArceusHub.UICorner_81.CornerRadius = UDim.new(0, 2147483647)
+ArceusHub.UICorner_81.Parent = ArceusHub.brown
+
+ArceusHub.blue_2.Name = "blue"
+ArceusHub.blue_2.Parent = ArceusHub.Frame_19
+ArceusHub.blue_2.BackgroundColor3 = Color3.fromRGB(34, 255, 0)
+ArceusHub.blue_2.Position = UDim2.new(0.413680762, 0, 0.557575762, 0)
+ArceusHub.blue_2.Size = UDim2.new(0, 39, 0, 38)
+ArceusHub.blue_2.Font = Enum.Font.SourceSans
+ArceusHub.blue_2.Text = ""
+ArceusHub.blue_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ArceusHub.blue_2.TextSize = 14.000
+
+ArceusHub.UICorner_82.CornerRadius = UDim.new(0, 2147483647)
+ArceusHub.UICorner_82.Parent = ArceusHub.blue_2
+
+ArceusHub.brown_2.Name = "brown"
+ArceusHub.brown_2.Parent = ArceusHub.Frame_19
+ArceusHub.brown_2.BackgroundColor3 = Color3.fromRGB(255, 255, 172)
+ArceusHub.brown_2.Position = UDim2.new(0.781758964, 0, 0.557575762, 0)
+ArceusHub.brown_2.Size = UDim2.new(0, 39, 0, 38)
+ArceusHub.brown_2.Font = Enum.Font.SourceSans
+ArceusHub.brown_2.Text = ""
+ArceusHub.brown_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ArceusHub.brown_2.TextSize = 14.000
+
+ArceusHub.UICorner_83.CornerRadius = UDim.new(0, 2147483647)
+ArceusHub.UICorner_83.Parent = ArceusHub.brown_2
+
+ArceusHub.white_2.Name = "white"
+ArceusHub.white_2.Parent = ArceusHub.Frame_19
+ArceusHub.white_2.BackgroundColor3 = Color3.fromRGB(247, 124, 255)
+ArceusHub.white_2.Position = UDim2.new(0.0684039071, 0, 0.557575762, 0)
+ArceusHub.white_2.Size = UDim2.new(0, 39, 0, 38)
+ArceusHub.white_2.Font = Enum.Font.SourceSans
+ArceusHub.white_2.Text = ""
+ArceusHub.white_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ArceusHub.white_2.TextSize = 14.000
+
+ArceusHub.UICorner_84.CornerRadius = UDim.new(0, 2147483647)
+ArceusHub.UICorner_84.Parent = ArceusHub.white_2
+
+ArceusHub.red_2.Name = "red"
+ArceusHub.red_2.Parent = ArceusHub.Frame_19
+ArceusHub.red_2.BackgroundColor3 = Color3.fromRGB(255, 238, 0)
+ArceusHub.red_2.Position = UDim2.new(0.24429968, 0, 0.557575762, 0)
+ArceusHub.red_2.Size = UDim2.new(0, 39, 0, 38)
+ArceusHub.red_2.Font = Enum.Font.SourceSans
+ArceusHub.red_2.Text = ""
+ArceusHub.red_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ArceusHub.red_2.TextSize = 14.000
+
+ArceusHub.UICorner_85.CornerRadius = UDim.new(0, 2147483647)
+ArceusHub.UICorner_85.Parent = ArceusHub.red_2
+
+ArceusHub.cyan_2.Name = "cyan"
+ArceusHub.cyan_2.Parent = ArceusHub.Frame_19
+ArceusHub.cyan_2.BackgroundColor3 = Color3.fromRGB(98, 132, 255)
+ArceusHub.cyan_2.Position = UDim2.new(0.586319208, 0, 0.557575762, 0)
+ArceusHub.cyan_2.Size = UDim2.new(0, 39, 0, 38)
+ArceusHub.cyan_2.Font = Enum.Font.SourceSans
+ArceusHub.cyan_2.Text = ""
+ArceusHub.cyan_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ArceusHub.cyan_2.TextSize = 14.000
+
+ArceusHub.UICorner_86.CornerRadius = UDim.new(0, 2147483647)
+ArceusHub.UICorner_86.Parent = ArceusHub.cyan_2
+
+-- Scripts:
+
+local function SZHR_fake_script() -- ArceusHub.TextButton.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.TextButton)
+
+	local gui = script.Parent.Parent
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		player.PlayerGui["Arceus Hub"].Main.Visible = false
+		player.PlayerGui["Arceus Hub"].Open.Visible = true
+	end)
+end
+coroutine.wrap(SZHR_fake_script)()
+local function IILWPKP_fake_script() -- ArceusHub.TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.TextButton_2)
+
+	local mm2 = script.Parent.Parent.Main
+	local arceus = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		arceus.PlayerGui["Arceus Hub"].Main.Visible = true
+		arceus.PlayerGui["Arceus Hub"].MM2.Visible = false
+	end)
+end
+coroutine.wrap(IILWPKP_fake_script)()
+local function JHKIMTU_fake_script() -- ArceusHub.games.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.games)
+
+	local mm2 = script.Parent.Parent.Main
+	local arceus = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		arceus.PlayerGui["Arceus Hub"].Main.Visible = false
+		arceus.PlayerGui["Arceus Hub"].games.Visible = true
+	end)
+end
+coroutine.wrap(JHKIMTU_fake_script)()
+local function EBTG_fake_script() -- ArceusHub.scripts.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.scripts)
+
+	local mm2 = script.Parent.Parent.Main
+	local arceus = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		arceus.PlayerGui["Arceus Hub"].Main.Visible = false
+		arceus.PlayerGui["Arceus Hub"].games.Visible = true
+	end)
+end
+coroutine.wrap(EBTG_fake_script)()
+local function QGPSI_fake_script() -- ArceusHub.hubs.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.hubs)
+
+	local mm2 = script.Parent.Parent.Main
+	local arceus = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		arceus.PlayerGui["Arceus Hub"].Main.Visible = false
+		arceus.PlayerGui["Arceus Hub"].games.Visible = true
+	end)
+end
+coroutine.wrap(QGPSI_fake_script)()
+local function TNGXCX_fake_script() -- ArceusHub.setting.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.setting)
+
+	local arceus = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		arceus.PlayerGui["Arceus Hub"].Setting.Visible = true
+		arceus.PlayerGui["Arceus Hub"].Main.Visible = false
+	end)
+end
+coroutine.wrap(TNGXCX_fake_script)()
+local function FHSIU_fake_script() -- ArceusHub.setting_2.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.setting_2)
+
+	local mm2 = script.Parent.Parent.Main
+	local arceus = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		arceus.PlayerGui["Arceus Hub"].Main.Visible = false
+		arceus.PlayerGui["Arceus Hub"].games.Visible = true
+	end)
+end
+coroutine.wrap(FHSIU_fake_script)()
+local function VZJB_fake_script() -- ArceusHub.TextLabel_8.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.TextLabel_8)
+
+	local user = game.Players.LocalPlayer
+	
+	if user then
+		script.Parent.Text = user.Name
+	end
+end
+coroutine.wrap(VZJB_fake_script)()
+local function VJVI_fake_script() -- ArceusHub.ImageLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.ImageLabel_2)
+
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	
+	-- Fetch the thumbnail
+	local userId = player.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+	-- Set the ImageLabel's content to the user thumbnail
+	local imageLabel = script.Parent
+	imageLabel.Image = content
+	imageLabel.Size = UDim2.new(0, 52, 0, 55)
+end
+coroutine.wrap(VJVI_fake_script)()
+local function ZGBRVAA_fake_script() -- ArceusHub.TextLabel_10.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.TextLabel_10)
+
+	local user = game.Players.LocalPlayer
+	
+	if user then
+		script.Parent.Text = user.AccountAge
+	end
+end
+coroutine.wrap(ZGBRVAA_fake_script)()
+local function HUJNL_fake_script() -- ArceusHub.TextLabel_11.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.TextLabel_11)
+
+	local user = game.Players.LocalPlayer
+	
+	if user then
+		script.Parent.Text = user.Team
+	end
+end
+coroutine.wrap(HUJNL_fake_script)()
+local function PYTXZ_fake_script() -- ArceusHub.TextLabel_13.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.TextLabel_13)
+
+	local user = game.Players.LocalPlayer
+	
+	if user then
+		script.Parent.Text = user.UserId
+	end
+end
+coroutine.wrap(PYTXZ_fake_script)()
+local function HZPTHYA_fake_script() -- ArceusHub.Open.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.Open)
+
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		player.PlayerGui["Arceus Hub"].welcome.Visible = true	
+		script.Parent.Visible = false
+		wait(3)
+		player.PlayerGui["Arceus Hub"].welcome.Visible = false
+		player.PlayerGui["Arceus Hub"].Main.Visible = true
+		
+	end)
+end
+coroutine.wrap(HZPTHYA_fake_script)()
+local function ZTGJCNC_fake_script() -- ArceusHub.TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.TextButton_3)
+
+	local gui = script.Parent.Parent
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		player.PlayerGui["Arceus Hub"].Main.Visible = false
+		player.PlayerGui["Arceus Hub"].MM2.Visible = false
+		player.PlayerGui["Arceus Hub"].Open.Visible = true
+	end)
+end
+coroutine.wrap(ZTGJCNC_fake_script)()
+local function KSGZ_fake_script() -- ArceusHub.TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.TextButton_4)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/7Twz5ext', true)) ()
+	end)
+end
+coroutine.wrap(KSGZ_fake_script)()
+local function AFQVN_fake_script() -- ArceusHub.TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.TextButton_5)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/7Twz5ext', true)) ()
+	end)
+end
+coroutine.wrap(AFQVN_fake_script)()
+local function JZOJNK_fake_script() -- ArceusHub.TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.TextButton_6)
+
+	local arceus = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		arceus.PlayerGui["Arceus Hub"].Main.Visible = true
+		arceus.PlayerGui["Arceus Hub"].MM2.Visible = false
+		arceus.PlayerGui["Arceus Hub"].games.Visible = false
+	end)
+end
+coroutine.wrap(JZOJNK_fake_script)()
+local function FVSH_fake_script() -- ArceusHub.games_2.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.games_2)
+
+	local arceus = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		arceus.PlayerGui["Arceus Hub"].games.Visible = true
+		arceus.PlayerGui["Arceus Hub"].MM2.Visible = false
+	end)
+end
+coroutine.wrap(FVSH_fake_script)()
+local function EBPJ_fake_script() -- ArceusHub.scripts_2.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.scripts_2)
+
+	local mm2 = script.Parent.Parent.Main
+	local arceus = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		arceus.PlayerGui["Arceus Hub"].Main.Visible = false
+		arceus.PlayerGui["Arceus Hub"].games.Visible = true
+	end)
+end
+coroutine.wrap(EBPJ_fake_script)()
+local function NJDSTBQ_fake_script() -- ArceusHub.setting_3.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.setting_3)
+
+	local mm2 = script.Parent.Parent.Main
+	local arceus = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		arceus.PlayerGui["Arceus Hub"].Main.Visible = false
+		arceus.PlayerGui["Arceus Hub"].games.Visible = true
+	end)
+end
+coroutine.wrap(NJDSTBQ_fake_script)()
+local function RSWJ_fake_script() -- ArceusHub.setting_4.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.setting_4)
+
+	local arceus = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		arceus.PlayerGui["Arceus Hub"].Setting.Visible = true
+		arceus.PlayerGui["Arceus Hub"].MM2.Visible = false
+	end)
+end
+coroutine.wrap(RSWJ_fake_script)()
+local function NEDMYFN_fake_script() -- ArceusHub.hubs_2.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.hubs_2)
+
+	local mm2 = script.Parent.Parent.Main
+	local arceus = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		arceus.PlayerGui["Arceus Hub"].Main.Visible = false
+		arceus.PlayerGui["Arceus Hub"].games.Visible = true
+	end)
+end
+coroutine.wrap(NEDMYFN_fake_script)()
+local function IDJG_fake_script() -- ArceusHub.TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.TextButton_7)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/7Twz5ext', true)) ()
+	end)
+end
+coroutine.wrap(IDJG_fake_script)()
+local function XUCS_fake_script() -- ArceusHub.TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.TextButton_8)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/7Twz5ext', true)) ()
+	end)
+end
+coroutine.wrap(XUCS_fake_script)()
+local function XZJGH_fake_script() -- ArceusHub.TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.TextButton_9)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/7Twz5ext', true)) ()
+	end)
+end
+coroutine.wrap(XZJGH_fake_script)()
+local function GPLR_fake_script() -- ArceusHub.TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.TextButton_10)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/7Twz5ext', true)) ()
+	end)
+end
+coroutine.wrap(GPLR_fake_script)()
+local function DZSTHG_fake_script() -- ArceusHub.TextButton_11.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.TextButton_11)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/7Twz5ext', true)) ()
+	end)
+end
+coroutine.wrap(DZSTHG_fake_script)()
+local function KDSEG_fake_script() -- ArceusHub.TextButton_12.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.TextButton_12)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/7Twz5ext', true)) ()
+	end)
+end
+coroutine.wrap(KDSEG_fake_script)()
+local function ORUJB_fake_script() -- ArceusHub.TextButton_13.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.TextButton_13)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/7Twz5ext', true)) ()
+	end)
+end
+coroutine.wrap(ORUJB_fake_script)()
+local function UZJSY_fake_script() -- ArceusHub.TextButton_14.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.TextButton_14)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/7Twz5ext', true)) ()
+	end)
+end
+coroutine.wrap(UZJSY_fake_script)()
+local function TSAV_fake_script() -- ArceusHub.TextButton_15.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.TextButton_15)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/7Twz5ext', true)) ()
+	end)
+end
+coroutine.wrap(TSAV_fake_script)()
+local function LKTVC_fake_script() -- ArceusHub.TextButton_16.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.TextButton_16)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/7Twz5ext', true)) ()
+	end)
+end
+coroutine.wrap(LKTVC_fake_script)()
+local function NPDQC_fake_script() -- ArceusHub.TextButton_17.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.TextButton_17)
+
+	local gui = script.Parent.Parent
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		player.PlayerGui["Arceus Hub"].Main.Visible = false
+		player.PlayerGui["Arceus Hub"].Open.Visible = true
+		player.PlayerGui["Arceus Hub"].games.Visible = false
+	end)
+end
+coroutine.wrap(NPDQC_fake_script)()
+local function YTUN_fake_script() -- ArceusHub.TextButton_18.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.TextButton_18)
+
+	local arceus = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		arceus.PlayerGui["Arceus Hub"].Main.Visible = true
+		arceus.PlayerGui["Arceus Hub"].games.Visible = false
+	end)
+end
+coroutine.wrap(YTUN_fake_script)()
+local function GWVX_fake_script() -- ArceusHub.games_4.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.games_4)
+
+	local mm2 = script.Parent.Parent.Main
+	local arceus = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		arceus.PlayerGui["Arceus Hub"].Main.Visible = false
+		arceus.PlayerGui["Arceus Hub"].MM2.Visible = false
+		arceus.PlayerGui["Arceus Hub"].games.Visible = true
+	end)
+end
+coroutine.wrap(GWVX_fake_script)()
+local function TNBX_fake_script() -- ArceusHub.scripts_3.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.scripts_3)
+
+	local mm2 = script.Parent.Parent.Main
+	local arceus = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		arceus.PlayerGui["Arceus Hub"].Main.Visible = false
+		arceus.PlayerGui["Arceus Hub"].games.Visible = true
+	end)
+end
+coroutine.wrap(TNBX_fake_script)()
+local function HNUOH_fake_script() -- ArceusHub.setting_5.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.setting_5)
+
+	local mm2 = script.Parent.Parent.Main
+	local arceus = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		arceus.PlayerGui["Arceus Hub"].Main.Visible = false
+		arceus.PlayerGui["Arceus Hub"].games.Visible = true
+	end)
+end
+coroutine.wrap(HNUOH_fake_script)()
+local function TPQSTX_fake_script() -- ArceusHub.setting_6.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.setting_6)
+
+	local arceus = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		arceus.PlayerGui["Arceus Hub"].Setting.Visible = true
+		arceus.PlayerGui["Arceus Hub"].games.Visible = false
+	end)
+end
+coroutine.wrap(TPQSTX_fake_script)()
+local function CCYRBL_fake_script() -- ArceusHub.hubs_3.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.hubs_3)
+
+	local mm2 = script.Parent.Parent.Main
+	local arceus = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		arceus.PlayerGui["Arceus Hub"].Main.Visible = false
+		arceus.PlayerGui["Arceus Hub"].games.Visible = true
+	end)
+end
+coroutine.wrap(CCYRBL_fake_script)()
+local function QVBDXPW_fake_script() -- ArceusHub.TextButton_19.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.TextButton_19)
+
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		player.PlayerGui["Arceus Hub"].Main.Visible = false
+		player.PlayerGui["Arceus Hub"].games.Visible = false
+		player.PlayerGui["Arceus Hub"].MM2.Visible = true
+	end)
+end
+coroutine.wrap(QVBDXPW_fake_script)()
+local function CGDVFCK_fake_script() -- ArceusHub.games_3.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.games_3)
+
+	local but = script.Parent.Parent.Main.menu.games
+	
+	but.MouseButton1Down:Connect(function()
+		script.Parent.Visible = true
+	end)
+end
+coroutine.wrap(CGDVFCK_fake_script)()
+local function VEWF_fake_script() -- ArceusHub.TextButton_20.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.TextButton_20)
+
+	local gui = script.Parent.Parent
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		player.PlayerGui["Arceus Hub"].Setting.Visible = false
+		player.PlayerGui["Arceus Hub"].Open.Visible = true
+	end)
+end
+coroutine.wrap(VEWF_fake_script)()
+local function FEWZB_fake_script() -- ArceusHub.TextButton_21.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.TextButton_21)
+
+	local arceus = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		arceus.PlayerGui["Arceus Hub"].Main.Visible = true
+		arceus.PlayerGui["Arceus Hub"].Setting.Visible = false
+	end)
+end
+coroutine.wrap(FEWZB_fake_script)()
+local function BKUZY_fake_script() -- ArceusHub.games_5.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.games_5)
+
+	local mm2 = script.Parent.Parent.Main
+	local arceus = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		arceus.PlayerGui["Arceus Hub"].Main.Visible = false
+		arceus.PlayerGui["Arceus Hub"].games.Visible = true
+	end)
+end
+coroutine.wrap(BKUZY_fake_script)()
+local function GXVQVAK_fake_script() -- ArceusHub.scripts_4.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.scripts_4)
+
+	local mm2 = script.Parent.Parent.Main
+	local arceus = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		arceus.PlayerGui["Arceus Hub"].Main.Visible = false
+		arceus.PlayerGui["Arceus Hub"].games.Visible = true
+	end)
+end
+coroutine.wrap(GXVQVAK_fake_script)()
+local function RDHS_fake_script() -- ArceusHub.hubs_4.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.hubs_4)
+
+	local mm2 = script.Parent.Parent.Main
+	local arceus = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		arceus.PlayerGui["Arceus Hub"].Main.Visible = false
+		arceus.PlayerGui["Arceus Hub"].games.Visible = true
+	end)
+end
+coroutine.wrap(RDHS_fake_script)()
+local function THLCQC_fake_script() -- ArceusHub.setting_7.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.setting_7)
+
+	local mm2 = script.Parent.Parent.Main
+	local arceus = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		arceus.PlayerGui["Arceus Hub"].Main.Visible = false
+		arceus.PlayerGui["Arceus Hub"].games.Visible = true
+	end)
+end
+coroutine.wrap(THLCQC_fake_script)()
+local function DMLAXGJ_fake_script() -- ArceusHub.setting_8.LocalScript 
+	local script = Instance.new('LocalScript', ArceusHub.setting_8)
+
+	local mm2 = script.Parent.Parent.Main
+	local arceus = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		arceus.PlayerGui["Arceus Hub"].Main.Visible = false
+		arceus.PlayerGui["Arceus Hub"].games.Visible = true
+	end)
+end
+coroutine.wrap(DMLAXGJ_fake_script)()
